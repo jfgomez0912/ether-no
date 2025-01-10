@@ -2,7 +2,7 @@
 %TAG !u! tag:unity3d.com,2011:
 --- !u!78 &1
 TagManager:
-  serializedVersion: 2
+  serializedVersion: 3
   tags: []
   layers:
   - Default
@@ -41,3 +41,26 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
+  - name: Cesped
+    uniqueID: 2319979215
+    locked: 0
+  - name: Decoracion
+    uniqueID: 3408002163
+    locked: 0
+  - name: Objetos
+    uniqueID: 161078803
+    locked: 0
+  - name: Personajes/Jugador
+    uniqueID: 2917700525
+    locked: 0
+  - name: Personajes/Enemigos
+    uniqueID: 1056454837
+    locked: 0
+  - name: Arboles
+    uniqueID: 1884993167
+    locked: 0
+  - name: Paredes Lab
+    uniqueID: 2410511209
+    locked: 0
+  m_RenderingLayers:
+  - Default
