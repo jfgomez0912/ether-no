@@ -1,0 +1,559 @@
+fileFormatVersion: 2
+guid: d62e2baa006a52c47b7a40452b3dbf59
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4848379107204646159
+    second: Dany_Boy_Idle_frame240x452_0
+  - first:
+      213: 4261703894110831537
+    second: Dany_Boy_Idle_frame240x452_1
+  - first:
+      213: -7745412302982998666
+    second: Dany_Boy_Idle_frame240x452_2
+  - first:
+      213: -6295191234652285101
+    second: Dany_Boy_Idle_frame240x452_3
+  - first:
+      213: -693788443536723827
+    second: Dany_Boy_Idle_frame240x452_4
+  - first:
+      213: 4129346068739916433
+    second: Dany_Boy_Idle_frame240x452_5
+  - first:
+      213: -4421919919020337647
+    second: Dany_Boy_Idle_frame240x452_6
+  - first:
+      213: 5711015582192018882
+    second: Dany_Boy_Idle_frame240x452_7
+  - first:
+      213: 404810354283412796
+    second: Dany_Boy_Idle_frame240x452_8
+  - first:
+      213: 48133427266730709
+    second: Dany_Boy_Idle_frame240x452_9
+  - first:
+      213: 1906917580770255134
+    second: Dany_Boy_Idle_frame240x452_10
+  - first:
+      213: -6023231473758643955
+    second: Dany_Boy_Idle_frame240x452_11
+  - first:
+      213: 7703728849838392730
+    second: Dany_Boy_Idle_frame240x452_12
+  - first:
+      213: 6257870793962626057
+    second: Dany_Boy_Idle_frame240x452_13
+  - first:
+      213: -6176061807536113129
+    second: Dany_Boy_Idle_frame240x452_14
+  - first:
+      213: 9113008355975251886
+    second: Dany_Boy_Idle_frame240x452_15
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 108
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Dany_Boy_Idle_Back_01
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1356
+        width: 240
+        height: 452
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f05cb553c17e84340800000000000000
+      internalID: 4848379107204646159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dany_Boy_Idle_Back_02
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 1356
+        width: 240
+        height: 452
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b3006abc1d942b30800000000000000
+      internalID: 4261703894110831537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dany_Boy_Idle_Back_03
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 1356
+        width: 240
+        height: 452
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67512c12c84c28490800000000000000
+      internalID: -7745412302982998666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dany_Boy_Idle_Back_04
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 1356
+        width: 240
+        height: 452
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 357d569ececf2a8a0800000000000000
+      internalID: -6295191234652285101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dany_Boy_Idle_Right_01
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 904
+        width: 240
+        height: 452
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d80f8b1261b2f56f0800000000000000
+      internalID: -693788443536723827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dany_Boy_Idle_Right_02
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 904
+        width: 240
+        height: 452
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 19206ed0f526e4930800000000000000
+      internalID: 4129346068739916433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dany_Boy_Idle_Right_03
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 904
+        width: 240
+        height: 452
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1169191134f22a2c0800000000000000
+      internalID: -4421919919020337647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dany_Boy_Idle_Right_04
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 904
+        width: 240
+        height: 452
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c5a64be96a914f40800000000000000
+      internalID: 5711015582192018882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dany_Boy_Idle_Front_01
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 452
+        width: 240
+        height: 452
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3d76785fdc2e9500800000000000000
+      internalID: 404810354283412796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dany_Boy_Idle_Front_02
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 452
+        width: 240
+        height: 452
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5da3e0ad8110ba000800000000000000
+      internalID: 48133427266730709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dany_Boy_Idle_Front_03
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 452
+        width: 240
+        height: 452
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e1122c9bf6bb67a10800000000000000
+      internalID: 1906917580770255134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dany_Boy_Idle_Front_04
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 452
+        width: 240
+        height: 452
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d09d9a613ee296ca0800000000000000
+      internalID: -6023231473758643955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dany_Boy_Idle_Left_01
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 240
+        height: 452
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a95cb84a29429ea60800000000000000
+      internalID: 7703728849838392730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dany_Boy_Idle_Left_02
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 0
+        width: 240
+        height: 452
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 90c1f6cd45c68d650800000000000000
+      internalID: 6257870793962626057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dany_Boy_Idle_Left_03
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 0
+        width: 240
+        height: 452
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71af3fa12883a4aa0800000000000000
+      internalID: -6176061807536113129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dany_Boy_Idle_Left_04
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 0
+        width: 240
+        height: 452
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea7421521d8e77e70800000000000000
+      internalID: 9113008355975251886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 326d5e4a8b31ba14f811b169b82c29f0
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Dany_Boy_Idle_Back_01: 4848379107204646159
+      Dany_Boy_Idle_Back_02: 4261703894110831537
+      Dany_Boy_Idle_Back_03: -7745412302982998666
+      Dany_Boy_Idle_Back_04: -6295191234652285101
+      Dany_Boy_Idle_Front_01: 404810354283412796
+      Dany_Boy_Idle_Front_02: 48133427266730709
+      Dany_Boy_Idle_Front_03: 1906917580770255134
+      Dany_Boy_Idle_Front_04: -6023231473758643955
+      Dany_Boy_Idle_Left_01: 7703728849838392730
+      Dany_Boy_Idle_Left_02: 6257870793962626057
+      Dany_Boy_Idle_Left_03: -6176061807536113129
+      Dany_Boy_Idle_Left_04: 9113008355975251886
+      Dany_Boy_Idle_Right_01: -693788443536723827
+      Dany_Boy_Idle_Right_02: 4129346068739916433
+      Dany_Boy_Idle_Right_03: -4421919919020337647
+      Dany_Boy_Idle_Right_04: 5711015582192018882
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
