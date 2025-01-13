@@ -41,11 +41,14 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
-  - name: Cesped
+  - name: Piso
     uniqueID: 2319979215
     locked: 0
-  - name: Decoracion
+  - name: Decoracion/Atras
     uniqueID: 3408002163
+    locked: 0
+  - name: Bosque/Atras
+    uniqueID: 2228839789
     locked: 0
   - name: Objetos
     uniqueID: 161078803
@@ -56,7 +59,10 @@ TagManager:
   - name: Personajes/Enemigos
     uniqueID: 1056454837
     locked: 0
-  - name: Arboles
+  - name: Decoracion/Delante
+    uniqueID: 2294235971
+    locked: 0
+  - name: Bosque/Delante
     uniqueID: 1884993167
     locked: 0
   - name: Paredes Lab
