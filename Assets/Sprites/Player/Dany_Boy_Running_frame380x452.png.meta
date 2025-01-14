@@ -1,0 +1,767 @@
+fileFormatVersion: 2
+guid: 1c8660f2343bb864fba807b825bcf4e4
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6068370401414155931
+    second: Dany_Boy_Running_frame380x452_0
+  - first:
+      213: -3083104529815354546
+    second: Dany_Boy_Running_frame380x452_1
+  - first:
+      213: 9021951538249090481
+    second: Dany_Boy_Running_frame380x452_2
+  - first:
+      213: -7798617603441294182
+    second: Dany_Boy_Running_frame380x452_3
+  - first:
+      213: -4187618671747591963
+    second: Dany_Boy_Running_frame380x452_4
+  - first:
+      213: 647962674343311139
+    second: Dany_Boy_Running_frame380x452_5
+  - first:
+      213: 4331597509245549815
+    second: Dany_Boy_Running_frame380x452_6
+  - first:
+      213: -4131654104576513082
+    second: Dany_Boy_Running_frame380x452_7
+  - first:
+      213: -5816978424157417739
+    second: Dany_Boy_Running_frame380x452_8
+  - first:
+      213: 6308437128676410778
+    second: Dany_Boy_Running_frame380x452_9
+  - first:
+      213: -966164961537403505
+    second: Dany_Boy_Running_frame380x452_10
+  - first:
+      213: 1901645351868535212
+    second: Dany_Boy_Running_frame380x452_11
+  - first:
+      213: -9170644835312745391
+    second: Dany_Boy_Running_frame380x452_12
+  - first:
+      213: 4730737504095240018
+    second: Dany_Boy_Running_frame380x452_13
+  - first:
+      213: -3485553858133484436
+    second: Dany_Boy_Running_frame380x452_14
+  - first:
+      213: 3867623717690006717
+    second: Dany_Boy_Running_frame380x452_15
+  - first:
+      213: -4672340929279946365
+    second: Dany_Boy_Running_frame380x452_16
+  - first:
+      213: 8287897063375865691
+    second: Dany_Boy_Running_frame380x452_17
+  - first:
+      213: 8210335523944408205
+    second: Dany_Boy_Running_frame380x452_18
+  - first:
+      213: -5754129766894550393
+    second: Dany_Boy_Running_frame380x452_19
+  - first:
+      213: -3888738625025251794
+    second: Dany_Boy_Running_frame380x452_20
+  - first:
+      213: 6843585259381334113
+    second: Dany_Boy_Running_frame380x452_21
+  - first:
+      213: 4812316040718450692
+    second: Dany_Boy_Running_frame380x452_22
+  - first:
+      213: -3157548614401596093
+    second: Dany_Boy_Running_frame380x452_23
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 220
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Dany_Boy_Running_frame380x452_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1356
+        width: 380
+        height: 452
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b9e09cd7abe273450800000000000000
+      internalID: 6068370401414155931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dany_Boy_Running_frame380x452_1
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 1356
+        width: 380
+        height: 452
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ab74fb5f108b414388ce39bfc176e4f
+      internalID: -172246969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dany_Boy_Running_frame380x452_2
+      rect:
+        serializedVersion: 2
+        x: 760
+        y: 1356
+        width: 380
+        height: 452
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b9a53f1323562e499ed4150f32eb713
+      internalID: 545363875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dany_Boy_Running_frame380x452_3
+      rect:
+        serializedVersion: 2
+        x: 1140
+        y: 1356
+        width: 380
+        height: 452
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a99afaa7475914345a82849e8e574929
+      internalID: 976842791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dany_Boy_Running_frame380x452_4
+      rect:
+        serializedVersion: 2
+        x: 1520
+        y: 1356
+        width: 380
+        height: 452
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98cb5cea1cdc25342a282c8dfd42303f
+      internalID: 225602833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dany_Boy_Running_frame380x452_5
+      rect:
+        serializedVersion: 2
+        x: 1900
+        y: 1356
+        width: 380
+        height: 452
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85b7c793e313de3468bcc5211e75cfbd
+      internalID: -2036142455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dany_Boy_Running_frame380x452_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 904
+        width: 380
+        height: 452
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1da5457575205441bcd6a2defc99a39
+      internalID: 366348397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dany_Boy_Running_frame380x452_7
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 904
+        width: 380
+        height: 452
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37a743d129dab7e46852855b16045167
+      internalID: 826716602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dany_Boy_Running_frame380x452_8
+      rect:
+        serializedVersion: 2
+        x: 760
+        y: 904
+        width: 380
+        height: 452
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 892e7b9ead1867041b7c3b7eb6f2452d
+      internalID: -1378656476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dany_Boy_Running_frame380x452_9
+      rect:
+        serializedVersion: 2
+        x: 1140
+        y: 904
+        width: 380
+        height: 452
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b114e16406cdbe540acd7b1ad8ea4c58
+      internalID: -1815793798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dany_Boy_Running_frame380x452_10
+      rect:
+        serializedVersion: 2
+        x: 1520
+        y: 904
+        width: 380
+        height: 452
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f6563dd929b9ed469fa32ef289fc299
+      internalID: 146296340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dany_Boy_Running_frame380x452_11
+      rect:
+        serializedVersion: 2
+        x: 1900
+        y: 904
+        width: 380
+        height: 452
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08e8024b80d1b204891cda203e546114
+      internalID: -151824813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dany_Boy_Running_frame380x452_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 452
+        width: 380
+        height: 452
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4698b147dff6df4384fca5fa44e88fe
+      internalID: 2050693718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dany_Boy_Running_frame380x452_13
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 452
+        width: 380
+        height: 452
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce45511bb1597c64eb00888ddae66bc4
+      internalID: -146493716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dany_Boy_Running_frame380x452_14
+      rect:
+        serializedVersion: 2
+        x: 760
+        y: 452
+        width: 380
+        height: 452
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 696e57d3a05df8541a62ed8fdf024470
+      internalID: 2084977564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dany_Boy_Running_frame380x452_15
+      rect:
+        serializedVersion: 2
+        x: 1140
+        y: 452
+        width: 380
+        height: 452
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 762f2fca85d1b3445bb1486e32c4595e
+      internalID: -604329175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dany_Boy_Running_frame380x452_16
+      rect:
+        serializedVersion: 2
+        x: 1520
+        y: 452
+        width: 380
+        height: 452
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c78dde3d143c03e4387c05cbd67861ff
+      internalID: 669551823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dany_Boy_Running_frame380x452_17
+      rect:
+        serializedVersion: 2
+        x: 1900
+        y: 452
+        width: 380
+        height: 452
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53a9f4b70956e4f459d5413f1018d217
+      internalID: 1203516633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dany_Boy_Running_frame380x452_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 380
+        height: 452
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73e56660f19063f4ebf732ac0c300e12
+      internalID: 1961097586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dany_Boy_Running_frame380x452_19
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 0
+        width: 380
+        height: 452
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d13711437f7fd647ad7f18d9c85dce0
+      internalID: 1985294640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dany_Boy_Running_frame380x452_20
+      rect:
+        serializedVersion: 2
+        x: 760
+        y: 0
+        width: 380
+        height: 452
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2adc526a1556ffc43b7f2e8bd25f7544
+      internalID: 343571073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dany_Boy_Running_frame380x452_21
+      rect:
+        serializedVersion: 2
+        x: 1140
+        y: 0
+        width: 380
+        height: 452
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c92436870372b524ead18f84dc6aa590
+      internalID: 1538294615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dany_Boy_Running_frame380x452_22
+      rect:
+        serializedVersion: 2
+        x: 1520
+        y: 0
+        width: 380
+        height: 452
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab352c86aa2e21549a210c4ec6c50948
+      internalID: -1245586703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dany_Boy_Running_frame380x452_23
+      rect:
+        serializedVersion: 2
+        x: 1900
+        y: 0
+        width: 380
+        height: 452
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a7d0cceb97587f4abc600dd5c84c15d
+      internalID: -965013543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 59f568eddcdceb24083dda9cf3906fff
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Dany_Boy_Running_frame380x452_0: 6068370401414155931
+      Dany_Boy_Running_frame380x452_1: -172246969
+      Dany_Boy_Running_frame380x452_10: 146296340
+      Dany_Boy_Running_frame380x452_11: -151824813
+      Dany_Boy_Running_frame380x452_12: 2050693718
+      Dany_Boy_Running_frame380x452_13: -146493716
+      Dany_Boy_Running_frame380x452_14: 2084977564
+      Dany_Boy_Running_frame380x452_15: -604329175
+      Dany_Boy_Running_frame380x452_16: 669551823
+      Dany_Boy_Running_frame380x452_17: 1203516633
+      Dany_Boy_Running_frame380x452_18: 1961097586
+      Dany_Boy_Running_frame380x452_19: 1985294640
+      Dany_Boy_Running_frame380x452_2: 545363875
+      Dany_Boy_Running_frame380x452_20: 343571073
+      Dany_Boy_Running_frame380x452_21: 1538294615
+      Dany_Boy_Running_frame380x452_22: -1245586703
+      Dany_Boy_Running_frame380x452_23: -965013543
+      Dany_Boy_Running_frame380x452_3: 976842791
+      Dany_Boy_Running_frame380x452_4: 225602833
+      Dany_Boy_Running_frame380x452_5: -2036142455
+      Dany_Boy_Running_frame380x452_6: 366348397
+      Dany_Boy_Running_frame380x452_7: 826716602
+      Dany_Boy_Running_frame380x452_8: -1378656476
+      Dany_Boy_Running_frame380x452_9: -1815793798
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
