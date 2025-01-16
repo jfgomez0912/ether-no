@@ -3,7 +3,8 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 3
-  tags: []
+  tags:
+  - EnemyAttack
   layers:
   - Default
   - TransparentFX
@@ -41,11 +42,14 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
-  - name: Cesped
+  - name: Piso
     uniqueID: 2319979215
     locked: 0
-  - name: Decoracion
+  - name: Decoracion/Atras
     uniqueID: 3408002163
+    locked: 0
+  - name: Bosque/Atras
+    uniqueID: 2228839789
     locked: 0
   - name: Objetos
     uniqueID: 161078803
@@ -56,11 +60,41 @@ TagManager:
   - name: Personajes/Enemigos
     uniqueID: 1056454837
     locked: 0
-  - name: Arboles
+  - name: Decoracion/Delante
+    uniqueID: 2294235971
+    locked: 0
+  - name: Bosque/Delante
     uniqueID: 1884993167
+    locked: 0
+  - name: Techo
+    uniqueID: 3500955727
     locked: 0
   - name: Paredes Lab
     uniqueID: 2410511209
+    locked: 0
+  - name: Tuneles
+    uniqueID: 517965039
+    locked: 0
+  - name: Otros
+    uniqueID: 870588387
+    locked: 0
+  - name: Capsulas
+    uniqueID: 1477977787
+    locked: 0
+  - name: LIbros
+    uniqueID: 1576631599
+    locked: 0
+  - name: Lasers
+    uniqueID: 2105031273
+    locked: 0
+  - name: Serpientes
+    uniqueID: 2592514945
+    locked: 0
+  - name: Antorchas
+    uniqueID: 3616557099
+    locked: 0
+  - name: "Telara\xF1as"
+    uniqueID: 2645366453
     locked: 0
   m_RenderingLayers:
   - Default
