@@ -35,9 +35,4 @@ public class EnemyController : MonoBehaviour
         coldDown = false;
     }
 
-    private IEnumerator ColdDownReset()
-    {
-        yield return new WaitForSeconds(coldDownTime);
-        coldDown = false;
-    }
 }
