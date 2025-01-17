@@ -1,5 +1,12 @@
 fileFormatVersion: 2
-guid: 5b8672487fd99164193415a769ee43d0
+guid: 7263ba8e3d07f7c4c90dd7ca4dc14bdd
+AssetOrigin:
+  serializedVersion: 1
+  productId: 284501
+  packageName: Evil Wizard 2
+  packageVersion: 1.0
+  assetPath: Assets/Evil Wizard 2/Sprites/Take hit.png
+  uploadId: 662692
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -110,45 +117,67 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Fall_1
+      name: Take hit_0
       rect:
         serializedVersion: 2
-        x: 107
-        y: 83
-        width: 65
-        height: 86
+        x: 0
+        y: 0
+        width: 250
+        height: 250
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b66c364677a57fd419ea2b8928ab5a4a
-      internalID: 1987833623
+      spriteID: db7897d5f4a0fd947bda84b0449aec54
+      internalID: -1313988079
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Fall_2
+      name: Take hit_1
       rect:
         serializedVersion: 2
-        x: 357
-        y: 83
-        width: 64
-        height: 93
+        x: 250
+        y: 0
+        width: 250
+        height: 250
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 495100e3a803769468bf9aa4fbf77052
-      internalID: 658030031
+      spriteID: 625790bf1d56305489e1227a7099fb9d
+      internalID: 965373608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Take hit_2
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 0
+        width: 250
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3746a9e76085bd1418c0ba94f8afb01b
+      internalID: -73526045
       vertices: []
       indices: 
       edges: []
@@ -167,9 +196,9 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Fall_1: 1987833623
-      Fall_2: 658030031
-      Fall_3: -1953107823
+      Take hit_0: -1313988079
+      Take hit_1: 965373608
+      Take hit_2: -73526045
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

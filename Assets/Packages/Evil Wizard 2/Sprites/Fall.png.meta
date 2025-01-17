@@ -1,5 +1,12 @@
 fileFormatVersion: 2
-guid: 1000d1f127f0bc344b14abcc47a0cb18
+guid: 0b656bee5ab32c944899e17714bb6416
+AssetOrigin:
+  serializedVersion: 1
+  productId: 284501
+  packageName: Evil Wizard 2
+  packageVersion: 1.0
+  assetPath: Assets/Evil Wizard 2/Sprites/Fall.png
+  uploadId: 662692
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -110,13 +117,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Jump_0
+      name: Fall_0
       rect:
         serializedVersion: 2
-        x: 91
-        y: 83
-        width: 69
-        height: 81
+        x: 0
+        y: 0
+        width: 250
+        height: 250
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -125,20 +132,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 227484bc325805e4b943c5f88fef375f
-      internalID: -1277376066
+      spriteID: b66c364677a57fd419ea2b8928ab5a4a
+      internalID: 1987833623
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Jump_1
+      name: Fall_1
       rect:
         serializedVersion: 2
-        x: 332
-        y: 83
-        width: 78
-        height: 80
+        x: 250
+        y: 0
+        width: 250
+        height: 250
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -147,8 +154,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 493e650fe25ae3c4ba25438a730131b2
-      internalID: -391400510
+      spriteID: 4e33040f800791b458b2bae164d781e6
+      internalID: -2074209901
       vertices: []
       indices: 
       edges: []
@@ -167,10 +174,8 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Jump_0: -1277376066
-      Jump_1: -391400510
-      Jump_3: -752337512
-      Jump_4: 866562647
+      Fall_0: 1987833623
+      Fall_1: -2074209901
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
