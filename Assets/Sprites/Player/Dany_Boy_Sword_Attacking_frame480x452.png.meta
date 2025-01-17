@@ -1,0 +1,565 @@
+fileFormatVersion: 2
+guid: 1df3de36c666be048ac4e748508d5c57
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4316245730264139560
+    second: Dany_Boy_Sword_Attacking_frame480x452_0
+  - first:
+      213: -7788027767749071233
+    second: Dany_Boy_Sword_Attacking_frame480x452_1
+  - first:
+      213: 1975141060579608398
+    second: Dany_Boy_Sword_Attacking_frame480x452_2
+  - first:
+      213: -3010058393505831272
+    second: Dany_Boy_Sword_Attacking_frame480x452_3
+  - first:
+      213: -8294154422902113033
+    second: Dany_Boy_Sword_Attacking_frame480x452_4
+  - first:
+      213: 7019568658832387059
+    second: Dany_Boy_Sword_Attacking_frame480x452_5
+  - first:
+      213: -8549404718266050183
+    second: Dany_Boy_Sword_Attacking_frame480x452_6
+  - first:
+      213: 6069866134206122410
+    second: Dany_Boy_Sword_Attacking_frame480x452_7
+  - first:
+      213: -2868648652302407877
+    second: Dany_Boy_Sword_Attacking_frame480x452_8
+  - first:
+      213: -7516457940707743837
+    second: Dany_Boy_Sword_Attacking_frame480x452_9
+  - first:
+      213: 2496057223894591023
+    second: Dany_Boy_Sword_Attacking_frame480x452_10
+  - first:
+      213: -1333908939004449425
+    second: Dany_Boy_Sword_Attacking_frame480x452_11
+  - first:
+      213: -3938153319861455502
+    second: Dany_Boy_Sword_Attacking_frame480x452_12
+  - first:
+      213: 4881338429331970667
+    second: Dany_Boy_Sword_Attacking_frame480x452_13
+  - first:
+      213: 5563345550515390862
+    second: Dany_Boy_Sword_Attacking_frame480x452_14
+  - first:
+      213: 2823060800717901022
+    second: Dany_Boy_Sword_Attacking_frame480x452_15
+  - first:
+      213: 3894210925284765126
+    second: Dany_Boy_Sword_Attacking_frame480x452_16
+  - first:
+      213: -8952114460523998229
+    second: Dany_Boy_Sword_Attacking_frame480x452_17
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 150
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Dany_Boy_Sword_Attacking_frame480x452_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1356
+        width: 480
+        height: 452
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a9885b707bf04846b8cab2823e6a2f8
+      internalID: -1013482261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dany_Boy_Sword_Attacking_frame480x452_1
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 1356
+        width: 480
+        height: 452
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db3500b7ca939dd4ca946d7379bf0983
+      internalID: -1665194130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dany_Boy_Sword_Attacking_frame480x452_2
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 1356
+        width: 480
+        height: 452
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22f95f164bcd61d468b170e177beb943
+      internalID: -37485049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dany_Boy_Sword_Attacking_frame480x452_3
+      rect:
+        serializedVersion: 2
+        x: 1440
+        y: 1356
+        width: 480
+        height: 452
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3effeb4ef8e5d2458754502ae2cd2e2
+      internalID: -963409361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dany_Boy_Sword_Attacking_frame480x452_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 904
+        width: 480
+        height: 452
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e100abe83bc79dd4d98b9cda75850cdd
+      internalID: 2083235563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dany_Boy_Sword_Attacking_frame480x452_5
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 904
+        width: 480
+        height: 452
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4aa37153edea2da40a4f3ae499b87f87
+      internalID: -1868576605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dany_Boy_Sword_Attacking_frame480x452_6
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 904
+        width: 480
+        height: 452
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2e2c51e98d53644aaec99e1661cd381
+      internalID: -691004654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dany_Boy_Sword_Attacking_frame480x452_7
+      rect:
+        serializedVersion: 2
+        x: 1440
+        y: 904
+        width: 480
+        height: 452
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7d2ba1e0e76b374099c3b853e70ac58
+      internalID: 793125848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dany_Boy_Sword_Attacking_frame480x452_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 452
+        width: 480
+        height: 452
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5303dd9c2e6de1f429ac25013cf63dea
+      internalID: 130769698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dany_Boy_Sword_Attacking_frame480x452_9
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 452
+        width: 480
+        height: 452
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a25e8c0007aba34daf10700e396af22
+      internalID: -1783523244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dany_Boy_Sword_Attacking_frame480x452_10
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 452
+        width: 480
+        height: 452
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d5de12bd98c16648924ac77cb2057e0
+      internalID: -287092068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dany_Boy_Sword_Attacking_frame480x452_11
+      rect:
+        serializedVersion: 2
+        x: 1440
+        y: 452
+        width: 480
+        height: 452
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c05e6569a389b6f4c8745335499b8b89
+      internalID: -649703186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dany_Boy_Sword_Attacking_frame480x452_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 480
+        height: 452
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e89cf4fe8496ce144afe4394d7a19868
+      internalID: 1964591783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dany_Boy_Sword_Attacking_frame480x452_13
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 0
+        width: 480
+        height: 452
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad2aea911395b54468d00f6fa9bd336b
+      internalID: 1332344535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dany_Boy_Sword_Attacking_frame480x452_14
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 0
+        width: 480
+        height: 452
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df6650a0f805268419cac367232a0a46
+      internalID: -1798575695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dany_Boy_Sword_Attacking_frame480x452_15
+      rect:
+        serializedVersion: 2
+        x: 1440
+        y: 0
+        width: 480
+        height: 452
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 529987784acdcb94b91a7e9e1dae35ab
+      internalID: -741048189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 37eb7d2ef637bba4bafa9a83d03b15f0
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Dany_Boy_Sword_Attacking_frame480x452_0: -1013482261
+      Dany_Boy_Sword_Attacking_frame480x452_1: -1665194130
+      Dany_Boy_Sword_Attacking_frame480x452_10: -287092068
+      Dany_Boy_Sword_Attacking_frame480x452_11: -649703186
+      Dany_Boy_Sword_Attacking_frame480x452_12: 1964591783
+      Dany_Boy_Sword_Attacking_frame480x452_13: 1332344535
+      Dany_Boy_Sword_Attacking_frame480x452_14: -1798575695
+      Dany_Boy_Sword_Attacking_frame480x452_15: -741048189
+      Dany_Boy_Sword_Attacking_frame480x452_2: -37485049
+      Dany_Boy_Sword_Attacking_frame480x452_3: -963409361
+      Dany_Boy_Sword_Attacking_frame480x452_4: 2083235563
+      Dany_Boy_Sword_Attacking_frame480x452_5: -1868576605
+      Dany_Boy_Sword_Attacking_frame480x452_6: -691004654
+      Dany_Boy_Sword_Attacking_frame480x452_7: 793125848
+      Dany_Boy_Sword_Attacking_frame480x452_8: 130769698
+      Dany_Boy_Sword_Attacking_frame480x452_9: -1783523244
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
