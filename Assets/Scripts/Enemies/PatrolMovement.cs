@@ -3,7 +3,9 @@ using System.Collections;
 using UnityEngine;
 using Random = UnityEngine.Random;
 
-public class TestController : MonoBehaviour
+namespace Enemy
+{
+    public class PatrolMovement : MonoBehaviour
 {
     public float speed = 5.0f;
     private Rigidbody2D _rb;
@@ -14,6 +16,7 @@ public class TestController : MonoBehaviour
     private int _pointsCount;
     private int _indexPoint;
     private EnemyController _enemyController;
+    public bool isFacingRigth = true;
 
     private void Awake()
     {
@@ -35,7 +38,8 @@ public class TestController : MonoBehaviour
     {
         if (!_enemyController.atk)
         {
-            Move(_focus);
+            MoveTo(_focus);
+            FlipSprite();
             AnimateMove();
             if (Vector2.Distance(_focus.position, transform.position) < 0.1f)
             {
@@ -45,12 +49,24 @@ public class TestController : MonoBehaviour
         else
         {
             _animator.SetFloat("Speed", 0f);
-            _animator.SetFloat("Horizontal", 0f);// Termporal
         }
         
     }
+
+    void FlipSprite()
+    {
+        bool condition1 = isFacingRigth && (_movement.x < 0f);
+        bool condition2 = !isFacingRigth && (_movement.x > 0f);
+        if (condition1 || condition2)
+        {
+            isFacingRigth = !isFacingRigth;
+            Vector3 scale = transform.localScale;
+            scale.x *= -1f;
+            transform.localScale = scale;
+        }
+    }
     
-    void Move(Transform target)
+    void MoveTo(Transform target)
     {
         Vector2 targetPosition = target.position;
         Vector2 currentPosition = transform.position;
@@ -64,17 +80,13 @@ public class TestController : MonoBehaviour
     {
         if (_movement != Vector2.zero)
         {
-            _animator.SetFloat("Horizontal", _movement.x);
-            _animator.SetFloat("Vertical", _movement.y);
+            _animator.SetFloat("Speed", _movement.sqrMagnitude);
         }
 
-        _animator.SetFloat("Speed", _movement.sqrMagnitude);
+        
     }
     void MoveToNextPatrolPoint()
     {
-        /*_rb.linearVelocity = Vector2.zero;
-        _movement = Vector2.zero;
-        yield return new WaitForSeconds(2f);*/
         int auxPoint;
         do
         {
@@ -83,4 +95,5 @@ public class TestController : MonoBehaviour
         _indexPoint = auxPoint;
         _focus = pointsParent.GetChild(_indexPoint);
     }
+}
 }
