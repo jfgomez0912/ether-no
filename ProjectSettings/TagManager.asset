@@ -6,6 +6,7 @@ TagManager:
   tags:
   - EnemyAttack
   - Enemigo
+  - Obstacle
   layers:
   - Default
   - TransparentFX

@@ -18,6 +18,7 @@ namespace Assets.Scripts.Bosses.Mago
         private Animator animator;
         private SpriteRenderer spriteRenderer;
         private bool atacando = false;
+        private Transform attackZone;
 
         private void Start()
         {
@@ -26,6 +27,7 @@ namespace Assets.Scripts.Bosses.Mago
             rb = GetComponent<Rigidbody2D>();
             animator = transform.Find("Skin").GetComponent<Animator>();
             spriteRenderer = transform.Find("Skin").GetComponent<SpriteRenderer>();
+            attackZone = transform.Find("AttackZone");
         }
 
         private void Update()
@@ -53,6 +55,17 @@ namespace Assets.Scripts.Bosses.Mago
                 else if (direccion.x > 0)
                 {
                     spriteRenderer.flipX = false;
+                }
+
+                if (direccion.x > 0)
+                {
+                    attackZone.localPosition = new Vector2(1.5f, -0.5f);
+                    attackZone.localRotation = Quaternion.Euler(0, 0, 0);
+                }
+                else if (direccion.x < 0)
+                {
+                    attackZone.localPosition = new Vector2(-1.5f, -0.5f);
+                    attackZone.localRotation = Quaternion.Euler(0, 0, 180);
                 }
             }
             else if (distancia > distanciaMinima)
