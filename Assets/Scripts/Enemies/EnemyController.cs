@@ -1,13 +1,21 @@
-using System;
 using System.Collections;
 using UnityEngine;
+using UnityEngine.Serialization;
 
 namespace Enemy
 {
     public class EnemyController : MonoBehaviour
     {
-        public bool atk;
-        private string[] _states = { "Patrol", "Follow", "Attack", "Wounded", "Died" };
+        public enum States
+        {
+            Patrol,
+            Attack,
+            Wounded,
+            Died
+        }
+
+        [FormerlySerializedAs("currentState")] [FormerlySerializedAs("state")] [SerializeField]
+        private States currentCurrentState = new States();
         private bool _coldDownAtk = false;
         private Animator _anim;
         private Transform _sprite;
@@ -26,12 +34,11 @@ namespace Enemy
         private GameObject bubbleRef;
         private Rigidbody2D _rb;
         private PatrolMovement _pm;
-        private Vector3 orignalPosBubble;
         private bool isFacingRigth = true;
 
         private void Awake()
         {
-            orignalPosBubble = spawnPointBubble.transform.localPosition;
+            currentCurrentState = States.Patrol; //Patrol
             _pm = GetComponent<PatrolMovement>();
             _atkTrigger = GetComponent<CircleCollider2D>();
             _anim = GetComponent<Animator>();
@@ -40,7 +47,7 @@ namespace Enemy
         private void Update()
         {
             isFacingRigth = _pm.isFacingRigth;
-            if (atk && !_coldDownAtk)
+            if (currentCurrentState == States.Attack && !_coldDownAtk)
             {
                 Attack();
             }
@@ -48,6 +55,7 @@ namespace Enemy
 
         private void Attack()
         {
+            currentCurrentState = States.Attack; //Attack
             _coldDownAtk = true;
             _anim.SetBool("atk", true);
             StartCoroutine(ColdDownStart());
@@ -82,7 +90,16 @@ namespace Enemy
 
         void OnTriggerStay2D(Collider2D other)
         {
-            /*print(other.gameObject.name);*/
+            if (other.gameObject.tag.Equals("Player"))
+            {
+                print("Atacaaaar!!!");
+            }
+        }
+
+        public States CurrentState
+        {
+            get => currentCurrentState;
+            set => currentCurrentState = value;
         }
     }
 }
