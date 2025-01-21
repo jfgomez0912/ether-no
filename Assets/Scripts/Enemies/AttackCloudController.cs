@@ -1,13 +1,10 @@
 using UnityEngine;
 
-namespace Enemies
+public class CloudController : MonoBehaviour
 {
-    public class CloudController : MonoBehaviour
+    private void DestroyCloud()
     {
-        private void DestroyCloud()
-        {
-            Destroy(this.gameObject);
-        }
-    
+        Destroy(this.gameObject);
     }
+    
 }

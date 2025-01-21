@@ -1,14 +1,12 @@
+using System;
 using UnityEngine;
 
-namespace Enemies
-{
-    public class EnemyController : MonoBehaviour
+public class EnemyController : MonoBehaviour
     {
         public enum States
         {
             Patrol,
             Attack,
-            Follow,
             Wounded,
             Died
         }
@@ -50,22 +48,30 @@ namespace Enemies
 
         private void Update()
         {
-            followPlayer = Physics2D.OverlapCircle(transform.position, 3f);
-            
             if (newState != _currentState)
             {
                 ChangeState(newState);
             }
         }
-        void OnTriggerStay2D(Collider2D other)
+        void OnTriggerEnter2D(Collider2D other)
         {
             if (other.gameObject.tag.Equals("Player"))
             {
-                print(other.gameObject.transform.position);
-                /*newState = States.Attack;*/
+                _attackState.Focus = other.gameObject.transform;
+                _attackState.RigidbodyEnemy = _enemyRigidbody;
+                _attackState.Speed = speed;
+                newState = States.Attack;
             }
         }
-        
+
+        void OnTriggerExit2D(Collider2D other)
+        {
+            if (other.gameObject.tag.Equals("Player"))
+            {
+                newState = States.Patrol;
+            }
+        }
+
         private void ChangeState(States state)
         {
             switch (state)
@@ -122,4 +128,3 @@ namespace Enemies
             _attackState.enabled = false;
         }
     }
-}

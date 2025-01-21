@@ -1,9 +1,7 @@
 using UnityEngine;
 using Random = UnityEngine.Random;
 
-namespace Enemies
-{
-    public class PatrolState : MonoBehaviour
+public class PatrolState : MonoBehaviour
     {
         public Transform pointsParent;
         
@@ -57,7 +55,7 @@ namespace Enemies
             Vector2 direction = targetPosition - currentPosition;
             direction.Normalize();
             _movement = direction;
-            _rigidbodyEnemy.MovePosition(currentPosition + (direction * (_speed * Time.deltaTime)));
+            _rigidbodyEnemy.MovePosition(currentPosition + direction * (_speed * Time.deltaTime));
         }
 
         void AnimateMove()
@@ -96,4 +94,3 @@ namespace Enemies
             set => _rigidbodyEnemy = value;
         }
     }
-}
