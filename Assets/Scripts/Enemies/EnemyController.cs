@@ -1,8 +1,6 @@
-using System.Collections;
 using UnityEngine;
-using UnityEngine.Serialization;
 
-namespace Enemy
+namespace Enemies
 {
     public class EnemyController : MonoBehaviour
     {
@@ -10,96 +8,118 @@ namespace Enemy
         {
             Patrol,
             Attack,
+            Follow,
             Wounded,
             Died
         }
 
-        [FormerlySerializedAs("currentState")] [FormerlySerializedAs("state")] [SerializeField]
-        private States currentCurrentState = new States();
-        private bool _coldDownAtk = false;
-        private Animator _anim;
-        private Transform _sprite;
+        [SerializeField] private States newState;
+        private States _currentState;
         private CircleCollider2D _atkTrigger;
-
-        [Header("Enemy")] public string enemyName;
 
         [Header("Stats")] public int health;
         public int damage;
         public bool isAlive = true;
         public float speed = 5.0f;
-        public float coldDownAtkTime;
-
-        [Header("AtackObjects")] public GameObject bubble;
-        public Transform spawnPointBubble;
-        private GameObject bubbleRef;
-        private Rigidbody2D _rb;
-        private PatrolMovement _pm;
-        private bool isFacingRigth = true;
+        public bool followPlayer;
+        private PatrolState _patrolState;
+        private AttackState _attackState;
+        
+        private bool _isFacingRight = true;
+        private Animator _animator;
+        private Rigidbody2D _enemyRigidbody;
+        private MonoBehaviour _activeState;
 
         private void Awake()
         {
-            currentCurrentState = States.Patrol; //Patrol
-            _pm = GetComponent<PatrolMovement>();
+            newState = States.Patrol;
+            _currentState = States.Patrol;
+            _patrolState = GetComponent<PatrolState>();
+            _attackState = GetComponent<AttackState>();
+            
             _atkTrigger = GetComponent<CircleCollider2D>();
-            _anim = GetComponent<Animator>();
+            _animator = GetComponent<Animator>();
+            _enemyRigidbody = GetComponent<Rigidbody2D>();
+        }
+
+        private void Start()
+        {
+            InitialBehaviorParams();
+            ChangeState(States.Patrol);
         }
 
         private void Update()
         {
-            isFacingRigth = _pm.isFacingRigth;
-            if (currentCurrentState == States.Attack && !_coldDownAtk)
+            followPlayer = Physics2D.OverlapCircle(transform.position, 3f);
+            
+            if (newState != _currentState)
             {
-                Attack();
+                ChangeState(newState);
             }
         }
-
-        private void Attack()
-        {
-            currentCurrentState = States.Attack; //Attack
-            _coldDownAtk = true;
-            _anim.SetBool("atk", true);
-            StartCoroutine(ColdDownStart());
-        }
-
-        private IEnumerator ColdDownStart()
-        {
-            yield return new WaitForSeconds(0.8f);
-            _anim.SetBool("atk", false);
-            yield return new WaitForSeconds(coldDownAtkTime);
-            _coldDownAtk = false;
-        }
-
-        void ThrowBubble()
-        {
-            Vector2 direction = new Vector2(3.5f, 1.5f);
-            if (isFacingRigth == false)
-            {
-                direction.x *= -1;
-            }
-
-            bubbleRef = Instantiate(bubble, spawnPointBubble);
-            _rb = bubbleRef.GetComponent<Rigidbody2D>();
-            _rb.AddForce(direction, ForceMode2D.Impulse);
-        }
-
-        void ThrowCloud()
-        {
-            _rb.linearVelocity = Vector2.zero;
-            _rb.gravityScale = 0;
-        }
-
         void OnTriggerStay2D(Collider2D other)
         {
             if (other.gameObject.tag.Equals("Player"))
             {
-                print("Atacaaaar!!!");
+                print(other.gameObject.transform.position);
+                /*newState = States.Attack;*/
             }
         }
-
-        public States CurrentState
+        
+        private void ChangeState(States state)
         {
-            get => currentCurrentState;
-            set => currentCurrentState = value;
+            switch (state)
+            {
+                case States.Patrol:
+                    _currentState = States.Patrol;
+                    AttackStateEnd();
+                    PatrolStateStart();
+                    break;
+                case States.Attack:
+                    _currentState = States.Attack;
+                    PatrolStateEnd();
+                    AttackStateStart();
+                    break;
+                default:
+                    _currentState = States.Patrol;
+                    AttackStateEnd();
+                    PatrolStateStart();
+                    break;
+            }
+        }
+        
+        private void InitialBehaviorParams()
+        {
+            _patrolState.IsFacingRight = _isFacingRight;
+            _attackState.IsFacingRight = _isFacingRight;
+        }
+
+        private void PatrolStateStart()
+        {
+            _patrolState.IsFacingRight = _isFacingRight;
+            _patrolState.Speed = speed;
+            _patrolState.Animator = _animator;
+            _patrolState.RigidbodyEnemy = _enemyRigidbody;
+            _patrolState.enabled = true;
+        }
+
+        private void PatrolStateEnd()
+        {
+            _isFacingRight = _patrolState.IsFacingRight;
+            _patrolState.enabled = false;
+        }
+
+        private void AttackStateStart()
+        {
+            _attackState.Animator = _animator;
+            _attackState.IsFacingRight = _isFacingRight;
+            _attackState.enabled = true;
+        }
+
+        private void AttackStateEnd()
+        {
+            _isFacingRight = _attackState.IsFacingRight;
+            _attackState.enabled = false;
         }
     }
 }

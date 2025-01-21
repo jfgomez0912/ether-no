@@ -132,8 +132,9 @@ GameObject:
   - component: {fileID: 133385276}
   - component: {fileID: 133385274}
   - component: {fileID: 133385279}
-  - component: {fileID: 133385275}
   - component: {fileID: 133385273}
+  - component: {fileID: 133385275}
+  - component: {fileID: 133385280}
   m_Layer: 0
   m_Name: Mutant
   m_TagString: Untagged
@@ -153,15 +154,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5a0d998fcc0696e40a26cbb4043dffcb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  atk: 0
-  enemyName: 
+  currentState: 0
   health: 0
   damage: 0
   isAlive: 1
   speed: 5
-  coldDownAtkTime: 3
-  bubble: {fileID: 1234707024256041076, guid: 852b2909af2aad044868d5960a5e1144, type: 3}
-  spawnPointBubble: {fileID: 340370777}
 --- !u!50 &133385274
 Rigidbody2D:
   serializedVersion: 5
@@ -201,9 +198,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b05f7245ca54c824ab0a77f972367755, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 5
   pointsParent: {fileID: 947120262}
-  isFacingRigth: 1
 --- !u!95 &133385276
 Animator:
   serializedVersion: 7
@@ -333,6 +328,21 @@ CircleCollider2D:
   m_CompositeOrder: 0
   m_Offset: {x: 0, y: 0}
   m_Radius: 3.5
+--- !u!114 &133385280
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 133385271}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 71acd1d0984d45629cb8463870eacc86, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bubblePrefab: {fileID: 1234707024256041076, guid: 852b2909af2aad044868d5960a5e1144, type: 3}
+  spawnPointBubble: {fileID: 340370777}
+  coldDownAtkTime: 3
 --- !u!1 &288760740
 GameObject:
   m_ObjectHideFlags: 0
@@ -3999,12 +4009,12 @@ GameObject:
   - component: {fileID: 1825569497}
   - component: {fileID: 1825569500}
   m_Layer: 0
-  m_Name: Capsule
+  m_Name: Player
   m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!70 &1825569497
 CapsuleCollider2D:
   m_ObjectHideFlags: 0

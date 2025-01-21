@@ -1,12 +1,13 @@
-using System.Collections;
 using UnityEngine;
 
-public class CloudController : MonoBehaviour
+namespace Enemies
 {
-
-    private void DestroyCloud()
+    public class CloudController : MonoBehaviour
     {
-        Destroy(this.gameObject);
-    }
+        private void DestroyCloud()
+        {
+            Destroy(this.gameObject);
+        }
     
+    }
 }

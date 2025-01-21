@@ -40,7 +40,7 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 2
-    m_ConditionEvent: atk
+    m_ConditionEvent: Atk
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: -7607487149096583712}
@@ -288,7 +288,7 @@ AnimatorController:
   m_Name: mutantRat
   serializedVersion: 5
   m_AnimatorParameters:
-  - m_Name: atk
+  - m_Name: Atk
     m_Type: 4
     m_DefaultFloat: 0
     m_DefaultInt: 0
@@ -353,7 +353,7 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 1
-    m_ConditionEvent: atk
+    m_ConditionEvent: Atk
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: -2437581203490117205}

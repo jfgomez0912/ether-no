@@ -1,56 +1,49 @@
 using UnityEngine;
 using Random = UnityEngine.Random;
 
-namespace Enemy
+namespace Enemies
 {
-    public class PatrolMovement : MonoBehaviour
+    public class PatrolState : MonoBehaviour
     {
-        private Rigidbody2D _rb;
+        public Transform pointsParent;
+        
         private Vector2 _movement;
-        private Animator _animator;
         private Transform _focus;
         private int _pointsCount;
         private int _indexPoint;
-        private EnemyController _enemyController;
-        public Transform pointsParent;
-        public bool isFacingRigth = true;
+
+        //Controller values
+        private float _speed;
+        private Animator _animator;
+        private Rigidbody2D _rigidbodyEnemy;
+        public bool IsFacingRight { get; set; }
 
         private void Awake()
         {
-            _enemyController = GetComponent<EnemyController>();
             _pointsCount = pointsParent.childCount;
             _indexPoint = Random.Range(0, _pointsCount);
             _focus = pointsParent.GetChild(_indexPoint);
-            _rb = GetComponent<Rigidbody2D>();
-            _animator = GetComponent<Animator>();
         }
 
         // Update is called once per frame
         void Update()
         {
-            if (_enemyController.CurrentState != EnemyController.States.Attack)
+            MoveTo(_focus);
+            FlipSprite();
+            AnimateMove();
+            if (Vector2.Distance(_focus.position, transform.position) < 0.1f)
             {
-                MoveTo(_focus);
-                FlipSprite();
-                AnimateMove();
-                if (Vector2.Distance(_focus.position, transform.position) < 0.1f)
-                {
-                    MoveToNextPatrolPoint();
-                }
-            }
-            else
-            {
-                _animator.SetFloat("Speed", 0f);
+                MoveToNextPatrolPoint();
             }
         }
 
         void FlipSprite()
         {
-            bool condition1 = isFacingRigth && (_movement.x < 0f);
-            bool condition2 = !isFacingRigth && (_movement.x > 0f);
+            bool condition1 = IsFacingRight && (_movement.x < 0f);
+            bool condition2 = !IsFacingRight && (_movement.x > 0f);
             if (condition1 || condition2)
             {
-                isFacingRigth = !isFacingRigth;
+                IsFacingRight = !IsFacingRight;
                 Vector3 scale = transform.localScale;
                 scale.x *= -1f;
                 transform.localScale = scale;
@@ -64,7 +57,7 @@ namespace Enemy
             Vector2 direction = targetPosition - currentPosition;
             direction.Normalize();
             _movement = direction;
-            _rb.MovePosition(currentPosition + (direction * (_enemyController.speed * Time.deltaTime)));
+            _rigidbodyEnemy.MovePosition(currentPosition + (direction * (_speed * Time.deltaTime)));
         }
 
         void AnimateMove()
@@ -84,6 +77,23 @@ namespace Enemy
             } while (_indexPoint == auxPoint);
             _indexPoint = auxPoint;
             _focus = pointsParent.GetChild(_indexPoint);
+        }
+
+        
+
+        public float Speed
+        {
+            set => _speed = value;
+        }
+
+        public Animator Animator
+        {
+            set => _animator = value;
+        }
+
+        public Rigidbody2D RigidbodyEnemy
+        {
+            set => _rigidbodyEnemy = value;
         }
     }
 }
