@@ -3,7 +3,7 @@ using Random = UnityEngine.Random;
 
 public class PatrolState : MonoBehaviour
     {
-        public Transform pointsParent;
+        private Transform pointsParent;
         
         private Vector2 _movement;
         private Transform _focus;
@@ -18,6 +18,8 @@ public class PatrolState : MonoBehaviour
 
         private void Awake()
         {
+            //Puntos para patrullar
+            pointsParent = GameObject.Find("PatrolPoints").transform;
             _pointsCount = pointsParent.childCount;
             _indexPoint = Random.Range(0, _pointsCount);
             _focus = pointsParent.GetChild(_indexPoint);

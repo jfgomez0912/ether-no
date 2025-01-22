@@ -1,4 +1,5 @@
 using System;
+using System.Collections;
 using UnityEngine;
 
 public class EnemyController : MonoBehaviour
@@ -13,13 +14,10 @@ public class EnemyController : MonoBehaviour
 
         [SerializeField] private States newState;
         private States _currentState;
-        private CircleCollider2D _atkTrigger;
 
-        [Header("Stats")] public int health;
-        public int damage;
+        [Header("Stats")] public int health = 50;
         public bool isAlive = true;
         public float speed = 5.0f;
-        public bool followPlayer;
         private PatrolState _patrolState;
         private AttackState _attackState;
         
@@ -27,6 +25,8 @@ public class EnemyController : MonoBehaviour
         private Animator _animator;
         private Rigidbody2D _enemyRigidbody;
         private MonoBehaviour _activeState;
+        private CircleCollider2D _circleCollider2D;
+        private BoxCollider2D _boxCollider2D;
 
         private void Awake()
         {
@@ -35,9 +35,10 @@ public class EnemyController : MonoBehaviour
             _patrolState = GetComponent<PatrolState>();
             _attackState = GetComponent<AttackState>();
             
-            _atkTrigger = GetComponent<CircleCollider2D>();
             _animator = GetComponent<Animator>();
             _enemyRigidbody = GetComponent<Rigidbody2D>();
+            _circleCollider2D = GetComponent<CircleCollider2D>();
+            _boxCollider2D = GetComponent<BoxCollider2D>();
         }
 
         private void Start()
@@ -48,14 +49,24 @@ public class EnemyController : MonoBehaviour
 
         private void Update()
         {
+            if (health <= 0)
+            {
+                newState = States.Died;
+            }
             if (newState != _currentState)
             {
                 ChangeState(newState);
             }
         }
-        void OnTriggerEnter2D(Collider2D other)
+
+        private void OnTriggerEnter2D(Collider2D other)
         {
-            if (other.gameObject.tag.Equals("Player"))
+            OnTriggerStay2D(other);
+        }
+
+        void OnTriggerStay2D(Collider2D other)
+        {
+            if (other.gameObject.tag.Equals("Player") && isAlive)
             {
                 _attackState.Focus = other.gameObject.transform;
                 _attackState.RigidbodyEnemy = _enemyRigidbody;
@@ -66,9 +77,21 @@ public class EnemyController : MonoBehaviour
 
         void OnTriggerExit2D(Collider2D other)
         {
-            if (other.gameObject.tag.Equals("Player"))
+            if (other.gameObject.tag.Equals("Player") && isAlive)
             {
                 newState = States.Patrol;
+            }
+        }
+
+        private void OnCollisionEnter2D(Collision2D other)
+        {
+            
+            //Temp
+            if (other.gameObject.tag.Equals("Player") && isAlive)
+            {
+                //Tomar daño del daño del jugardor con el other getComponent
+                health -= 10;
+                newState = States.Wounded;
             }
         }
 
@@ -86,10 +109,23 @@ public class EnemyController : MonoBehaviour
                     PatrolStateEnd();
                     AttackStateStart();
                     break;
-                default:
-                    _currentState = States.Patrol;
+                case States.Wounded:
+                    if (!_currentState.Equals(States.Died))
+                    {
+                        StartCoroutine(HurtCoroutune());
+                    }
+                    break;
+                case States.Died:
+                    _currentState = States.Died;
                     AttackStateEnd();
-                    PatrolStateStart();
+                    PatrolStateEnd();
+                    _animator.SetBool("Death", true);
+                    _circleCollider2D.enabled = false;
+                    _boxCollider2D.enabled = false;
+                    isAlive = false;
+                    break;
+                default:
+                    print("Error: estado del enemigo indefinido");
                     break;
             }
         }
@@ -126,5 +162,12 @@ public class EnemyController : MonoBehaviour
         {
             _isFacingRight = _attackState.IsFacingRight;
             _attackState.enabled = false;
+        }
+        
+        public IEnumerator HurtCoroutune()
+        {
+            _animator.SetBool("Hurt", true);
+            yield return new WaitForSeconds(1f);
+            _animator.SetBool("Hurt", false);
         }
     }
