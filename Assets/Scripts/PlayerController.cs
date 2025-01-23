@@ -1,6 +1,6 @@
+using System.Collections;
 using UnityEngine;
 using Assets.Scripts.Enemies;
-using JetBrains.Annotations;
 
 public class PlayerControler : MonoBehaviour
 {
@@ -10,6 +10,7 @@ public class PlayerControler : MonoBehaviour
     private Vector2 input;
     private Animator animator;
     private Transform attackZone;
+    private bool isHurt = false;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
 
@@ -25,6 +26,13 @@ public class PlayerControler : MonoBehaviour
     void Update()
     {
 
+        if (health <= 0)
+        {
+            animator.SetBool("Death", true);
+            GetComponent<BoxCollider2D>().enabled = false;
+            attackZone.gameObject.SetActive(false);
+            print("Ha muerto");
+        }
         //  Ataque con mouse del manager de ataque
         if (Input.GetAxisRaw("Fire1") > 0)
         {
@@ -91,10 +99,20 @@ public class PlayerControler : MonoBehaviour
 
     public void TakeDamage(int damage)
     {
-        health -= damage;
-        if (health <= 0)
+        if (!isHurt)
         {
-            print("Ha muerto");
+            isHurt = true;
+            health -= damage;
+            animator.SetBool("Hurt", true);
+            print(health + ", Daño:" +damage);
+            StartCoroutine(ColdDownHurt());
         }
+    }
+
+    IEnumerator ColdDownHurt()
+    {
+        yield return new WaitForSeconds(1f);
+        animator.SetBool("Hurt", false);
+        isHurt = false;
     }
 }
