@@ -198,12 +198,12 @@ TextureImporter:
       name: Dany_Boy_Running_frame380x452_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 1356
-        width: 380
-        height: 452
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 120
+        y: 1395
+        width: 142
+        height: 361
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -220,12 +220,12 @@ TextureImporter:
       name: Dany_Boy_Running_frame380x452_1
       rect:
         serializedVersion: 2
-        x: 380
-        y: 1356
-        width: 380
-        height: 452
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 502
+        y: 1394
+        width: 139
+        height: 348
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -242,12 +242,12 @@ TextureImporter:
       name: Dany_Boy_Running_frame380x452_2
       rect:
         serializedVersion: 2
-        x: 760
-        y: 1356
-        width: 380
-        height: 452
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 882
+        y: 1393
+        width: 138
+        height: 348
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -264,12 +264,12 @@ TextureImporter:
       name: Dany_Boy_Running_frame380x452_3
       rect:
         serializedVersion: 2
-        x: 1140
-        y: 1356
-        width: 380
-        height: 452
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 1260
+        y: 1395
+        width: 142
+        height: 361
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -286,12 +286,12 @@ TextureImporter:
       name: Dany_Boy_Running_frame380x452_4
       rect:
         serializedVersion: 2
-        x: 1520
-        y: 1356
-        width: 380
-        height: 452
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 1640
+        y: 1395
+        width: 139
+        height: 348
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -308,12 +308,12 @@ TextureImporter:
       name: Dany_Boy_Running_frame380x452_5
       rect:
         serializedVersion: 2
-        x: 1900
-        y: 1356
-        width: 380
-        height: 452
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 2022
+        y: 1393
+        width: 138
+        height: 348
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -330,12 +330,12 @@ TextureImporter:
       name: Dany_Boy_Running_frame380x452_6
       rect:
         serializedVersion: 2
-        x: 0
-        y: 904
-        width: 380
-        height: 452
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 97
+        y: 943
+        width: 201
+        height: 363
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -352,12 +352,12 @@ TextureImporter:
       name: Dany_Boy_Running_frame380x452_7
       rect:
         serializedVersion: 2
-        x: 380
-        y: 904
-        width: 380
-        height: 452
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 438
+        y: 943
+        width: 263
+        height: 350
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -374,12 +374,12 @@ TextureImporter:
       name: Dany_Boy_Running_frame380x452_8
       rect:
         serializedVersion: 2
-        x: 760
-        y: 904
-        width: 380
-        height: 452
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 774
+        y: 942
+        width: 349
+        height: 336
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -396,12 +396,12 @@ TextureImporter:
       name: Dany_Boy_Running_frame380x452_9
       rect:
         serializedVersion: 2
-        x: 1140
-        y: 904
-        width: 380
-        height: 452
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 1238
+        y: 943
+        width: 201
+        height: 363
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -418,12 +418,12 @@ TextureImporter:
       name: Dany_Boy_Running_frame380x452_10
       rect:
         serializedVersion: 2
-        x: 1520
-        y: 904
-        width: 380
-        height: 452
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 1576
+        y: 943
+        width: 264
+        height: 350
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -440,12 +440,12 @@ TextureImporter:
       name: Dany_Boy_Running_frame380x452_11
       rect:
         serializedVersion: 2
-        x: 1900
-        y: 904
-        width: 380
-        height: 452
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 1914
+        y: 942
+        width: 349
+        height: 336
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -462,12 +462,12 @@ TextureImporter:
       name: Dany_Boy_Running_frame380x452_12
       rect:
         serializedVersion: 2
-        x: 0
-        y: 452
-        width: 380
-        height: 452
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 120
+        y: 491
+        width: 142
+        height: 361
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -484,12 +484,12 @@ TextureImporter:
       name: Dany_Boy_Running_frame380x452_13
       rect:
         serializedVersion: 2
-        x: 380
-        y: 452
-        width: 380
-        height: 452
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 472
+        y: 482
+        width: 170
+        height: 356
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -506,12 +506,12 @@ TextureImporter:
       name: Dany_Boy_Running_frame380x452_14
       rect:
         serializedVersion: 2
-        x: 760
-        y: 452
-        width: 380
-        height: 452
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 851
+        y: 480
+        width: 168
+        height: 357
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -528,12 +528,12 @@ TextureImporter:
       name: Dany_Boy_Running_frame380x452_15
       rect:
         serializedVersion: 2
-        x: 1140
-        y: 452
-        width: 380
-        height: 452
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 1260
+        y: 491
+        width: 142
+        height: 361
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -550,12 +550,12 @@ TextureImporter:
       name: Dany_Boy_Running_frame380x452_16
       rect:
         serializedVersion: 2
-        x: 1520
-        y: 452
-        width: 380
-        height: 452
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 1639
+        y: 490
+        width: 141
+        height: 348
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -572,12 +572,12 @@ TextureImporter:
       name: Dany_Boy_Running_frame380x452_17
       rect:
         serializedVersion: 2
-        x: 1900
-        y: 452
-        width: 380
-        height: 452
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 2022
+        y: 489
+        width: 138
+        height: 348
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -594,12 +594,12 @@ TextureImporter:
       name: Dany_Boy_Running_frame380x452_18
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 380
-        height: 452
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 77
+        y: 39
+        width: 201
+        height: 363
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -616,12 +616,12 @@ TextureImporter:
       name: Dany_Boy_Running_frame380x452_19
       rect:
         serializedVersion: 2
-        x: 380
-        y: 0
-        width: 380
-        height: 452
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 439
+        y: 39
+        width: 263
+        height: 350
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -638,12 +638,12 @@ TextureImporter:
       name: Dany_Boy_Running_frame380x452_20
       rect:
         serializedVersion: 2
-        x: 760
-        y: 0
-        width: 380
-        height: 452
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 774
+        y: 38
+        width: 349
+        height: 336
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -660,12 +660,12 @@ TextureImporter:
       name: Dany_Boy_Running_frame380x452_21
       rect:
         serializedVersion: 2
-        x: 1140
-        y: 0
-        width: 380
-        height: 452
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 1217
+        y: 39
+        width: 201
+        height: 363
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -682,12 +682,12 @@ TextureImporter:
       name: Dany_Boy_Running_frame380x452_22
       rect:
         serializedVersion: 2
-        x: 1520
-        y: 0
-        width: 380
-        height: 452
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 1575
+        y: 39
+        width: 265
+        height: 350
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -704,12 +704,12 @@ TextureImporter:
       name: Dany_Boy_Running_frame380x452_23
       rect:
         serializedVersion: 2
-        x: 1900
-        y: 0
-        width: 380
-        height: 452
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 1914
+        y: 38
+        width: 349
+        height: 336
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
