@@ -83,19 +83,19 @@ public class EnemyController : MonoBehaviour
             }
         }
 
-        private void OnCollisionEnter2D(Collision2D other)
-        {
-            
-            //Temp
-            if (other.gameObject.tag.Equals("Player") && isAlive)
-            {
-                //Tomar daño del daño del jugardor con el other getComponent
-                health -= 10;
-                newState = States.Wounded;
-            }
-        }
+    //private void OnCollisionEnter2D(Collision2D other)
+    //{
 
-        private void ChangeState(States state)
+    //Temp
+    //    if (other.gameObject.tag.Equals("Player") && isAlive)
+    //  {
+    //Tomar daño del daño del jugardor con el other getComponent
+    //health -= 10;
+    //newState = States.Wounded;
+    //}
+    //}
+
+    private void ChangeState(States state)
         {
             switch (state)
             {
@@ -129,8 +129,16 @@ public class EnemyController : MonoBehaviour
                     break;
             }
         }
-        
-        private void InitialBehaviorParams()
+
+    public void TakeDamage(int damage)
+    {
+        if (isAlive)
+        {
+            health -= damage;
+            newState = States.Wounded;
+        }
+    }
+    private void InitialBehaviorParams()
         {
             _patrolState.IsFacingRight = _isFacingRight;
             _attackState.IsFacingRight = _isFacingRight;

@@ -1,10 +1,23 @@
 using UnityEngine;
 
-public class CloudController : MonoBehaviour
+namespace Assets.Scripts.Enemies
 {
-    private void DestroyCloud()
+    public class AttackCloudController : MonoBehaviour
     {
-        Destroy(this.gameObject);
+        public int damage = 5;
+        private void DestroyCloud()
+        {
+            Destroy(this.gameObject);
+        }
+
+        private void OnTriggerEnter2D(Collider2D collision)
+        {
+            if (collision.CompareTag("Player"))
+            {
+                collision.gameObject.GetComponent<PlayerControler>().TakeDamage(damage);
+            }
+        }
+
     }
-    
 }
+
