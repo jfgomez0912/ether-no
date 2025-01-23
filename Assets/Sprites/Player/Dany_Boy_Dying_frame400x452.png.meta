@@ -174,12 +174,12 @@ TextureImporter:
       name: Dany_Boy_Dying_frame400x452_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 1356
-        width: 400
-        height: 452
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 103
+        y: 1431
+        width: 184
+        height: 314
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -196,12 +196,12 @@ TextureImporter:
       name: Dany_Boy_Dying_frame400x452_1
       rect:
         serializedVersion: 2
-        x: 400
-        y: 1356
-        width: 400
-        height: 452
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 473
+        y: 1579
+        width: 216
+        height: 145
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -218,12 +218,12 @@ TextureImporter:
       name: Dany_Boy_Dying_frame400x452_2
       rect:
         serializedVersion: 2
-        x: 800
-        y: 1356
-        width: 400
-        height: 452
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 880
+        y: 1546
+        width: 226
+        height: 130
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -240,12 +240,12 @@ TextureImporter:
       name: Dany_Boy_Dying_frame400x452_3
       rect:
         serializedVersion: 2
-        x: 1200
-        y: 1356
-        width: 400
-        height: 452
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 1278
+        y: 1460
+        width: 248
+        height: 258
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -262,12 +262,12 @@ TextureImporter:
       name: Dany_Boy_Dying_frame400x452_4
       rect:
         serializedVersion: 2
-        x: 0
-        y: 904
-        width: 400
-        height: 452
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 78
+        y: 934
+        width: 247
+        height: 361
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -284,12 +284,12 @@ TextureImporter:
       name: Dany_Boy_Dying_frame400x452_5
       rect:
         serializedVersion: 2
-        x: 400
-        y: 904
-        width: 400
-        height: 452
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 418
+        y: 961
+        width: 300
+        height: 253
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -306,12 +306,12 @@ TextureImporter:
       name: Dany_Boy_Dying_frame400x452_6
       rect:
         serializedVersion: 2
-        x: 800
-        y: 904
-        width: 400
-        height: 452
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 814
+        y: 965
+        width: 340
+        height: 182
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -328,12 +328,12 @@ TextureImporter:
       name: Dany_Boy_Dying_frame400x452_7
       rect:
         serializedVersion: 2
-        x: 1200
-        y: 904
-        width: 400
-        height: 452
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 1203
+        y: 913
+        width: 379
+        height: 160
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -350,12 +350,12 @@ TextureImporter:
       name: Dany_Boy_Dying_frame400x452_8
       rect:
         serializedVersion: 2
-        x: 0
-        y: 452
-        width: 400
-        height: 452
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 102
+        y: 491
+        width: 211
+        height: 358
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -372,12 +372,12 @@ TextureImporter:
       name: Dany_Boy_Dying_frame400x452_9
       rect:
         serializedVersion: 2
-        x: 400
-        y: 452
-        width: 400
-        height: 452
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 506
+        y: 518
+        width: 202
+        height: 313
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -394,12 +394,12 @@ TextureImporter:
       name: Dany_Boy_Dying_frame400x452_10
       rect:
         serializedVersion: 2
-        x: 800
-        y: 452
-        width: 400
-        height: 452
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 920
+        y: 537
+        width: 172
+        height: 279
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -416,12 +416,12 @@ TextureImporter:
       name: Dany_Boy_Dying_frame400x452_11
       rect:
         serializedVersion: 2
-        x: 1200
-        y: 452
-        width: 400
-        height: 452
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 1305
+        y: 558
+        width: 197
+        height: 244
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -438,12 +438,12 @@ TextureImporter:
       name: Dany_Boy_Dying_frame400x452_12
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 400
-        height: 452
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 75
+        y: 30
+        width: 247
+        height: 361
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -460,12 +460,12 @@ TextureImporter:
       name: Dany_Boy_Dying_frame400x452_13
       rect:
         serializedVersion: 2
-        x: 400
-        y: 0
-        width: 400
-        height: 452
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 482
+        y: 57
+        width: 300
+        height: 253
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -482,12 +482,12 @@ TextureImporter:
       name: Dany_Boy_Dying_frame400x452_14
       rect:
         serializedVersion: 2
-        x: 800
-        y: 0
-        width: 400
-        height: 452
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 846
+        y: 61
+        width: 340
+        height: 182
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -504,12 +504,12 @@ TextureImporter:
       name: Dany_Boy_Dying_frame400x452_15
       rect:
         serializedVersion: 2
-        x: 1200
-        y: 0
-        width: 400
-        height: 452
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 1218
+        y: 9
+        width: 379
+        height: 160
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
