@@ -31,25 +31,22 @@ namespace Assets.Scripts.Bosses
          rb.linearVelocity = -transform.right * speed;
         }
 
-        private void OnCollisionEnter2D(Collision2D collision)
+
+        private void OnTriggerEnter2D(Collider2D collision)
         {
-            if (collision.gameObject.CompareTag("Player"))
+            if (collision.CompareTag("Player"))
             {
                 // Implementar lógica de daño al jugador aquí
-                PlayerControler playerHealth = collision.gameObject.GetComponent<PlayerControler>();
-                if (playerHealth != null)
-                {
-                    // playerHealth.TakeDamage(damage);
-                }
+                collision.gameObject.GetComponent<PlayerControler>().TakeDamage(damage);
 
-                // Destruir el proyectil al colisionar con el jugador
                 Destroy(gameObject);
             }
-            else if (collision.gameObject.CompareTag("Obstacle"))
+            else if (collision.CompareTag("Obstacle"))
             {
                 // Destruir el proyectil al colisionar con un obstáculo
                 Destroy(gameObject);
             }
         }
+        
     }
 }

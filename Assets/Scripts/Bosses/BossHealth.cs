@@ -6,7 +6,8 @@ namespace Assets.Scripts.Bosses
     {
         public int maxHealth = 100;
         private int currentHealth;
-
+        [SerializeField]private Animator mago;
+        [SerializeField]private Animator cientifico;
 
         private void Start()
         {
@@ -15,6 +16,8 @@ namespace Assets.Scripts.Bosses
 
         public void TakeDamage(int damage)
         {
+            //animacion de los bosses
+            print("El boss recibio daño");
             currentHealth -= damage;
             if (currentHealth <= 0)
             {

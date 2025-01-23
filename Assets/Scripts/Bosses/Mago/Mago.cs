@@ -18,6 +18,7 @@ namespace Assets.Scripts.Bosses.Mago
         private SpriteRenderer spriteRenderer;
         private bool atacando = false;
         private Transform attackZone;
+        [SerializeField]private BossHealth bossHealth;
 
         private void Start()
         {
@@ -88,6 +89,11 @@ namespace Assets.Scripts.Bosses.Mago
             yield return new WaitForSeconds(animator.GetCurrentAnimatorStateInfo(0).length);
             atacando = false;
             animator.SetBool("isAttacking", false);
+        }
+
+        public void TakeDamage(int damage)
+        {
+            bossHealth.TakeDamage(damage);
         }
     }
 }

@@ -20,8 +20,8 @@ namespace Assets.Scripts.Bosses.Mago
             {
                 Vector2 direccionEmpuje = (enemigo.transform.position - origen).normalized;
                 enemigoRb.AddForce(direccionEmpuje * fuerza, ForceMode2D.Impulse);
-                // Aplicar daño al enemigo
-                // enemigo.GetComponent<SaludEnemigo>().TomarDanio(danio);
+                
+                enemigo.GetComponent<PlayerControler>().TakeDamage(danio);
             }
         }
     }

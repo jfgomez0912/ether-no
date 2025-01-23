@@ -22,10 +22,11 @@ namespace Assets.Scripts.Bosses.Mago
         private IEnumerator DesorientarCoroutine(GameObject enemigo)
         {
             // Desactivar controles del enemigo
-            // enemigo.GetComponent<ControlEnemigo>().enabled = false;
+            enemigo.GetComponent<PlayerControler>().enabled = false;
+            enemigo.GetComponent<Rigidbody2D>().linearVelocity = Vector2.zero;
             yield return new WaitForSeconds(duracion);
             // Reactivar controles del enemigo
-            // enemigo.GetComponent<ControlEnemigo>().enabled = true;
+            enemigo.GetComponent<PlayerControler>().enabled = true;
         }
     }
 }

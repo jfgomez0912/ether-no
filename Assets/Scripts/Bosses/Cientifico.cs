@@ -18,6 +18,8 @@ namespace Assets.Scripts.Bosses {
         public float amplitude = 2.0f; // Amplitud del movimiento armónico
         public float frequency = 1.0f; // Frecuencia del movimiento armónico
 
+        [SerializeField] private BossHealth bossHealth;
+
         private void Awake()
         {
             // Obtener el componente Transform del objeto hijo llamado "firePoint"
@@ -74,6 +76,12 @@ namespace Assets.Scripts.Bosses {
             Instantiate(projectilePrefab, firePoint.position, firePoint.rotation);
             // Volver al estado Idle después de disparar
             animator.SetBool("IsAttacking", false);
+        }
+
+
+        public void TakeDamage(int damage)
+        {
+            bossHealth.TakeDamage(damage);
         }
     }
 }

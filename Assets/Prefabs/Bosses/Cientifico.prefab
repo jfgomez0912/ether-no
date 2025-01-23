@@ -10,9 +10,10 @@ GameObject:
   m_Component:
   - component: {fileID: 2501143658054635789}
   - component: {fileID: 7187349481367190218}
+  - component: {fileID: 3073576326040924440}
   m_Layer: 0
   m_Name: Cientifico
-  m_TagString: Untagged
+  m_TagString: Enemigo
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -49,10 +50,47 @@ MonoBehaviour:
   moveSpeed: 2
   fireRate: 2
   projectilePrefab: {fileID: 180324587704725575, guid: 5d554e6b6d499ea4bad58e52095e1c1d, type: 3}
+  isStarted: 1
   amplitude: 2.5
   frequency: 1
-  firePoint: {fileID: 4520154600324108638}
-  animator: {fileID: 0}
+  bossHealth: {fileID: 0}
+--- !u!70 &3073576326040924440
+CapsuleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 510124749939712152}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: -0.15035963, y: -0.0079135895}
+  m_Size: {x: 0.54748154, y: 1.743885}
+  m_Direction: 0
 --- !u!1 &1128467289467772879
 GameObject:
   m_ObjectHideFlags: 0
