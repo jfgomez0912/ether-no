@@ -150,12 +150,12 @@ TextureImporter:
       name: Dany_Boy_Hurt_frame400x452_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 1356
-        width: 400
-        height: 452
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 103
+        y: 1431
+        width: 184
+        height: 314
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -172,12 +172,12 @@ TextureImporter:
       name: Dany_Boy_Hurt_frame400x452_1
       rect:
         serializedVersion: 2
-        x: 400
-        y: 1356
-        width: 400
-        height: 452
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 503
+        y: 1431
+        width: 184
+        height: 314
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -194,12 +194,12 @@ TextureImporter:
       name: Dany_Boy_Hurt_frame400x452_2
       rect:
         serializedVersion: 2
-        x: 0
-        y: 904
-        width: 400
-        height: 452
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 78
+        y: 934
+        width: 247
+        height: 361
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -216,12 +216,12 @@ TextureImporter:
       name: Dany_Boy_Hurt_frame400x452_3
       rect:
         serializedVersion: 2
-        x: 400
-        y: 904
-        width: 400
-        height: 452
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 478
+        y: 934
+        width: 247
+        height: 361
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -238,12 +238,12 @@ TextureImporter:
       name: Dany_Boy_Hurt_frame400x452_4
       rect:
         serializedVersion: 2
-        x: 0
-        y: 452
-        width: 400
-        height: 452
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 102
+        y: 491
+        width: 211
+        height: 358
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -260,12 +260,12 @@ TextureImporter:
       name: Dany_Boy_Hurt_frame400x452_5
       rect:
         serializedVersion: 2
-        x: 400
-        y: 452
-        width: 400
-        height: 452
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 502
+        y: 491
+        width: 211
+        height: 358
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -282,12 +282,12 @@ TextureImporter:
       name: Dany_Boy_Hurt_frame400x452_6
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 400
-        height: 452
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 75
+        y: 30
+        width: 247
+        height: 361
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -304,12 +304,12 @@ TextureImporter:
       name: Dany_Boy_Hurt_frame400x452_7
       rect:
         serializedVersion: 2
-        x: 400
-        y: 0
-        width: 400
-        height: 452
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 475
+        y: 30
+        width: 247
+        height: 361
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []

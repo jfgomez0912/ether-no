@@ -180,12 +180,12 @@ TextureImporter:
       name: Dany_Boy_Sword_Attacking_frame480x452_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 1356
-        width: 480
-        height: 452
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 175
+        y: 1395
+        width: 153
+        height: 409
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -202,12 +202,12 @@ TextureImporter:
       name: Dany_Boy_Sword_Attacking_frame480x452_1
       rect:
         serializedVersion: 2
-        x: 480
-        y: 1356
-        width: 480
-        height: 452
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 643
+        y: 1395
+        width: 207
+        height: 409
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -224,12 +224,12 @@ TextureImporter:
       name: Dany_Boy_Sword_Attacking_frame480x452_2
       rect:
         serializedVersion: 2
-        x: 960
-        y: 1356
-        width: 480
-        height: 452
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 1119
+        y: 1396
+        width: 240
+        height: 408
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -246,12 +246,12 @@ TextureImporter:
       name: Dany_Boy_Sword_Attacking_frame480x452_3
       rect:
         serializedVersion: 2
-        x: 1440
-        y: 1356
-        width: 480
-        height: 452
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 1599
+        y: 1396
+        width: 243
+        height: 408
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -265,37 +265,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Dany_Boy_Sword_Attacking_frame480x452_4
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 904
-        width: 480
-        height: 452
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e100abe83bc79dd4d98b9cda75850cdd
-      internalID: 2083235563
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: Dany_Boy_Sword_Attacking_frame480x452_5
       rect:
         serializedVersion: 2
-        x: 480
-        y: 904
-        width: 480
-        height: 452
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 68
+        y: 942
+        width: 233
+        height: 403
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -312,12 +290,12 @@ TextureImporter:
       name: Dany_Boy_Sword_Attacking_frame480x452_6
       rect:
         serializedVersion: 2
-        x: 960
-        y: 904
-        width: 480
-        height: 452
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 580
+        y: 942
+        width: 298
+        height: 412
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -334,12 +312,12 @@ TextureImporter:
       name: Dany_Boy_Sword_Attacking_frame480x452_7
       rect:
         serializedVersion: 2
-        x: 1440
-        y: 904
-        width: 480
-        height: 452
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 1053
+        y: 927
+        width: 383
+        height: 408
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -356,12 +334,12 @@ TextureImporter:
       name: Dany_Boy_Sword_Attacking_frame480x452_8
       rect:
         serializedVersion: 2
-        x: 0
-        y: 452
-        width: 480
-        height: 452
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 1533
+        y: 927
+        width: 379
+        height: 403
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -378,12 +356,12 @@ TextureImporter:
       name: Dany_Boy_Sword_Attacking_frame480x452_9
       rect:
         serializedVersion: 2
-        x: 480
-        y: 452
-        width: 480
-        height: 452
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 163
+        y: 485
+        width: 141
+        height: 417
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -400,12 +378,12 @@ TextureImporter:
       name: Dany_Boy_Sword_Attacking_frame480x452_10
       rect:
         serializedVersion: 2
-        x: 960
-        y: 452
-        width: 480
-        height: 452
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 602
+        y: 491
+        width: 189
+        height: 405
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -422,12 +400,12 @@ TextureImporter:
       name: Dany_Boy_Sword_Attacking_frame480x452_11
       rect:
         serializedVersion: 2
-        x: 1440
-        y: 452
-        width: 480
-        height: 452
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 1036
+        y: 454
+        width: 233
+        height: 440
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -444,12 +422,12 @@ TextureImporter:
       name: Dany_Boy_Sword_Attacking_frame480x452_12
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 480
-        height: 452
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 1518
+        y: 454
+        width: 224
+        height: 413
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -466,12 +444,12 @@ TextureImporter:
       name: Dany_Boy_Sword_Attacking_frame480x452_13
       rect:
         serializedVersion: 2
-        x: 480
-        y: 0
-        width: 480
-        height: 452
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 179
+        y: 38
+        width: 232
+        height: 403
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -485,37 +463,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Dany_Boy_Sword_Attacking_frame480x452_14
-      rect:
-        serializedVersion: 2
-        x: 960
-        y: 0
-        width: 480
-        height: 452
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: df6650a0f805268419cac367232a0a46
-      internalID: -1798575695
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: Dany_Boy_Sword_Attacking_frame480x452_15
       rect:
         serializedVersion: 2
-        x: 1440
-        y: 0
-        width: 480
-        height: 452
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 562
+        y: 38
+        width: 298
+        height: 412
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -524,6 +480,50 @@ TextureImporter:
       bones: []
       spriteID: 529987784acdcb94b91a7e9e1dae35ab
       internalID: -741048189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dany_Boy_Sword_Attacking_frame480x452_16
+      rect:
+        serializedVersion: 2
+        x: 964
+        y: 23
+        width: 383
+        height: 408
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0041c1994fcda4282849483f3762b605
+      internalID: 960509149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dany_Boy_Sword_Attacking_frame480x452_17
+      rect:
+        serializedVersion: 2
+        x: 1448
+        y: 23
+        width: 379
+        height: 403
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1cda990e7cca048c7aa1e7eb2be5f56e
+      internalID: -1506042541
       vertices: []
       indices: 
       edges: []
@@ -550,6 +550,8 @@ TextureImporter:
       Dany_Boy_Sword_Attacking_frame480x452_13: 1332344535
       Dany_Boy_Sword_Attacking_frame480x452_14: -1798575695
       Dany_Boy_Sword_Attacking_frame480x452_15: -741048189
+      Dany_Boy_Sword_Attacking_frame480x452_16: 960509149
+      Dany_Boy_Sword_Attacking_frame480x452_17: -1506042541
       Dany_Boy_Sword_Attacking_frame480x452_2: -37485049
       Dany_Boy_Sword_Attacking_frame480x452_3: -963409361
       Dany_Boy_Sword_Attacking_frame480x452_4: 2083235563
