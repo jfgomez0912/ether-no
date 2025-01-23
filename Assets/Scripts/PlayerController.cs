@@ -1,5 +1,6 @@
 using UnityEngine;
 using Assets.Scripts.Enemies;
+using JetBrains.Annotations;
 
 public class PlayerControler : MonoBehaviour
 {
@@ -11,7 +12,6 @@ public class PlayerControler : MonoBehaviour
     private Transform attackZone;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
- 
 
     void Start()
     {
@@ -29,7 +29,7 @@ public class PlayerControler : MonoBehaviour
         if (Input.GetAxisRaw("Fire1") > 0)
         {
             Attack();
-        }else
+        } else
         {
 
             //Temporal hasta que se implementa la corrutina
@@ -46,9 +46,30 @@ public class PlayerControler : MonoBehaviour
         input.x = Input.GetAxisRaw("Horizontal");
         input.y = Input.GetAxisRaw("Vertical");
         input.Normalize(); // Prevents diagonal movement from being faster
+
+        if (input.x > 0)
+        {
+            attackZone.localPosition = new Vector2(1.2f, 1f);
+            attackZone.localRotation = Quaternion.Euler(0, 0, 0);
+        }
+        else if (input.x < 0)
+        {
+            attackZone.localPosition = new Vector2(-1.2f, 1f);
+            attackZone.localRotation = Quaternion.Euler(0, 0, 180);
+        }
+        else if (input.y > 0)
+        {
+            attackZone.localPosition = new Vector2(0, 1.80f);
+            attackZone.localRotation = Quaternion.Euler(0, 0, 90);
+        }
+        else if (input.y < 0)
+        {
+            attackZone.localPosition = new Vector2(0, -0.75f);
+            attackZone.localRotation = Quaternion.Euler(0, 0, 270);
+        }
     }
 
-    void Move()
+        void Move()
     {
         rb.linearVelocity = input * speed;
     }
@@ -63,35 +84,18 @@ public class PlayerControler : MonoBehaviour
         animator.SetFloat("Speed", input.sqrMagnitude);
     }
 
-    void Attack()
-    {
+    void Attack(){
         attackZone.gameObject.SetActive(true);
         // Implemementar con una corrutina para que el ataque dure un tiempo determinado
     }
 
     public void TakeDamage(int damage)
     {
-        
-        print(health);
         health -= damage;
 
         if (health <= 0)
         {
             print("Ha muerto");
         }
-    }
-
-    private void OnCollisionEnter2D(Collision2D collision)
-    {
-        print("Entre");
-        if (collision.gameObject.CompareTag("EnemyAttack"))
-        {
-            TakeDamage(collision.gameObject.GetComponent<AttackCloudController>().damage);
-        }
-    }
-
-    private void OnCollisionStay2D(Collision2D collision)
-    {
-        OnCollisionEnter2D(collision);
     }
 }

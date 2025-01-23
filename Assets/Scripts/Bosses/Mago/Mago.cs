@@ -11,7 +11,6 @@ namespace Assets.Scripts.Bosses.Mago
         public float rangoAtaque = 2.0f;
         public float distanciaMinima = 0.5f;
         public Transform objetivo;
-
         private Desorientar desorientar;
         private Empujar empujar;
         private Rigidbody2D rb;
@@ -51,21 +50,14 @@ namespace Assets.Scripts.Bosses.Mago
                 if (direccion.x < 0)
                 {
                     spriteRenderer.flipX = true;
+                    attackZone.localPosition = new Vector2(-1.5f, -0.5f);
+                    attackZone.localRotation = Quaternion.Euler(0, 0, 180);
                 }
                 else if (direccion.x > 0)
                 {
                     spriteRenderer.flipX = false;
-                }
-
-                if (direccion.x > 0)
-                {
                     attackZone.localPosition = new Vector2(1.5f, -0.5f);
                     attackZone.localRotation = Quaternion.Euler(0, 0, 0);
-                }
-                else if (direccion.x < 0)
-                {
-                    attackZone.localPosition = new Vector2(-1.5f, -0.5f);
-                    attackZone.localRotation = Quaternion.Euler(0, 0, 180);
                 }
             }
             else if (distancia > distanciaMinima)
