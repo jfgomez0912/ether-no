@@ -31,9 +31,9 @@ public class PlayerControler : MonoBehaviour
             Attack();
         } else
         {
-
             //Temporal hasta que se implementa la corrutina
             attackZone.gameObject.SetActive(false);
+            animator.SetBool("Attack", false);
         }
 
         ProcessInputs();
@@ -49,12 +49,12 @@ public class PlayerControler : MonoBehaviour
 
         if (input.x > 0)
         {
-            attackZone.localPosition = new Vector2(1.2f, 1f);
+            attackZone.localPosition = new Vector2(0.9f, 1f);
             attackZone.localRotation = Quaternion.Euler(0, 0, 0);
         }
         else if (input.x < 0)
         {
-            attackZone.localPosition = new Vector2(-1.2f, 1f);
+            attackZone.localPosition = new Vector2(-0.9f, 1f);
             attackZone.localRotation = Quaternion.Euler(0, 0, 180);
         }
         else if (input.y > 0)
@@ -64,12 +64,11 @@ public class PlayerControler : MonoBehaviour
         }
         else if (input.y < 0)
         {
-            attackZone.localPosition = new Vector2(0, -0.75f);
+            attackZone.localPosition = new Vector2(0, 0.11f);
             attackZone.localRotation = Quaternion.Euler(0, 0, 270);
         }
     }
-
-        void Move()
+    void Move()
     {
         rb.linearVelocity = input * speed;
     }
@@ -87,12 +86,12 @@ public class PlayerControler : MonoBehaviour
     void Attack(){
         attackZone.gameObject.SetActive(true);
         // Implemementar con una corrutina para que el ataque dure un tiempo determinado
+        animator.SetBool("Attack", true);
     }
 
     public void TakeDamage(int damage)
     {
         health -= damage;
-
         if (health <= 0)
         {
             print("Ha muerto");
