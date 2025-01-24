@@ -18,6 +18,10 @@ public class BossHealth : MonoBehaviour
     private void Start()
     {
         currentHealth = maxHealth;
+        mago = GameObject.Find("Mago");
+        cientifico = GameObject.Find("Cientifico").GetComponent<Cientifico>();
+        player = GameObject.Find("Player");
+        canvas = GameObject.Find("Canvas");
     }
 
     public void TakeDamage(int damage)

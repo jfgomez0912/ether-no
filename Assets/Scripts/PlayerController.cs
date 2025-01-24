@@ -50,6 +50,8 @@ public class PlayerControler : MonoBehaviour
             attackZone.gameObject.SetActive(false);
             rb.linearVelocity = Vector2.zero;
             print("Ha muerto");
+            Destroy(gameObject);
+            GameOverManager.Instance.ShowGameOver();
             this.enabled = false;
         }
         //  Ataque con mouse del manager de ataque
