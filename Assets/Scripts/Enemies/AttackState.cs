@@ -84,8 +84,8 @@ public class AttackState : MonoBehaviour
     {
         yield return new WaitForSeconds(0.6f);
         _animator.SetBool("Atk", false);
-        _coldDownAtk = false;
         yield return new WaitForSeconds(coldDownAtkTime);
+        _coldDownAtk = false;
     }
 
     //Es usado desde el animator como un Event
