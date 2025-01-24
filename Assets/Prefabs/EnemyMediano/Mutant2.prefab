@@ -82,7 +82,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 1056454837
-  m_SortingLayer: 6
+  m_SortingLayer: 7
   m_SortingOrder: 0
   m_Sprite: {fileID: 1982968477, guid: e8a39fab356c0024a952515127bd374c, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -224,6 +224,7 @@ MonoBehaviour:
   spawnPointBubble: {fileID: 7624930262476858804}
   coldDownAtkTime: 3.1
   isSmall: 0
+  isBig: 0
 --- !u!61 &7926884028671961800
 BoxCollider2D:
   m_ObjectHideFlags: 0
