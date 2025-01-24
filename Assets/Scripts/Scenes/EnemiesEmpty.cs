@@ -1,11 +1,10 @@
 using UnityEngine;
 
-public class Habitacion1 : MonoBehaviour
+public class EnemiesEmpty : MonoBehaviour
 {
     private GameObject[] enemies;
     public GameObject nextScene;
 
-    // Update is called once per frame
     void Update()
     {
         enemies = GameObject.FindGameObjectsWithTag("Enemigo");
@@ -13,11 +12,7 @@ public class Habitacion1 : MonoBehaviour
         foreach (GameObject enemy in enemies)
         {
             bool isAlive = enemy.GetComponent<EnemyController>().isAlive;
-            if (isAlive)
-            {
-                continue;
-            }
-            else
+            if (!isAlive)
             {
                 cont++;
             }
@@ -25,7 +20,6 @@ public class Habitacion1 : MonoBehaviour
 
         if (enemies.Length == cont)
         {
-            print("Todos muertos");
             nextScene.SetActive(true);
         }
     }
