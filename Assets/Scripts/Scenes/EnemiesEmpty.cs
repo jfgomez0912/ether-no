@@ -3,8 +3,8 @@ using UnityEngine;
 public class EnemiesEmpty : MonoBehaviour
 {
     private GameObject[] enemies;
-    public GameObject nextScene;
-
+    public GameObject light;
+    public GameObject portal;
     void Update()
     {
         enemies = GameObject.FindGameObjectsWithTag("Enemigo");
@@ -20,7 +20,9 @@ public class EnemiesEmpty : MonoBehaviour
 
         if (enemies.Length == cont)
         {
-            nextScene.SetActive(true);
+            light.SetActive(true);
+            portal.SetActive(true);
+
         }
     }
 }

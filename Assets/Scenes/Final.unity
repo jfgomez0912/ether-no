@@ -451,7 +451,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8baf28451ab14b94a8a691532076d9c8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  nextNameScene: Guia Inicial
+  nextNameScene: Menu
   canvas: {fileID: 243569338}
 --- !u!1 &805726322
 GameObject:
@@ -682,7 +682,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: Guia Inicial
+          m_StringArgument: Menu
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &1500358055

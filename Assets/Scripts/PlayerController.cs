@@ -16,7 +16,7 @@ public class PlayerControler : MonoBehaviour
 
 
     void Awake()
-    {
+    {   
         if (Instance == null)
         {
             Instance = this;
@@ -41,7 +41,7 @@ public class PlayerControler : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-
+     
         if (health <= 0)
         {
             animator.SetBool("Death", true);
@@ -68,6 +68,17 @@ public class PlayerControler : MonoBehaviour
         Animate();
     }
 
+
+    public void WrapRespawn(float waitTime)
+    {
+        StartCoroutine(Respawn(waitTime));
+    }
+    IEnumerator Respawn(float waitTime)
+    {
+        GetComponent<SpriteRenderer>().enabled = false;
+        yield return new WaitForSeconds(waitTime);
+        GetComponent<SpriteRenderer>().enabled = true;
+    }
     void ProcessInputs()
     {
         input.x = Input.GetAxisRaw("Horizontal");
