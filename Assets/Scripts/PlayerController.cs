@@ -30,8 +30,11 @@ public class PlayerControler : MonoBehaviour
         {
             animator.SetBool("Death", true);
             GetComponent<BoxCollider2D>().enabled = false;
+            GetComponent<CapsuleCollider2D>().enabled = false;
             attackZone.gameObject.SetActive(false);
+            rb.linearVelocity = Vector2.zero;
             print("Ha muerto");
+            this.enabled = false;
         }
         //  Ataque con mouse del manager de ataque
         if (Input.GetAxisRaw("Fire1") > 0)
@@ -79,6 +82,16 @@ public class PlayerControler : MonoBehaviour
     void Move()
     {
         rb.linearVelocity = input * speed;
+    }
+
+    public void Heal(int amount)
+    {
+        health += amount;
+        if (health > 100) // Suponiendo que 100 es la salud máxima
+        {
+            health = 100;
+        }
+        print("Salud: " + health);
     }
 
     void Animate()
