@@ -14,6 +14,7 @@ public class AttackState : MonoBehaviour
     private GameObject _bubbleReference;
     private Rigidbody2D _bubbleRigidbody;
     public bool isSmall = false;
+    public bool isBig = false;
 
     //Controller values
     private Animator _animator;
@@ -60,6 +61,10 @@ public class AttackState : MonoBehaviour
         {
             distance *= 0.5f;
         }
+        else if (isBig)
+        {
+            distance *= 1.5f;
+        }
         float offset = IsFacingRight ? -distance : distance;
         return new Vector2(_focus.position.x + offset, _focus.position.y);
     }
@@ -103,6 +108,10 @@ public class AttackState : MonoBehaviour
         {
             seconds = 0.45f;
         }
+        else if (isBig)
+        {
+            seconds = 0.8f;
+        }
         ThrowBubble();
         yield return new WaitForSeconds(seconds);
         PopBubble();
@@ -114,6 +123,10 @@ public class AttackState : MonoBehaviour
         if (isSmall)
         {
             direction *= 0.5f;
+        }
+        else if (isBig)
+        {
+            direction *= 1.5f;
         }
         if (!IsFacingRight)
         {
