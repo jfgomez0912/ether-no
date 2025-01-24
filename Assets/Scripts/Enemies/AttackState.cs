@@ -13,6 +13,7 @@ public class AttackState : MonoBehaviour
     private bool _coldDownAtk;
     private GameObject _bubbleReference;
     private Rigidbody2D _bubbleRigidbody;
+    public bool isSmall = false;
 
     //Controller values
     private Animator _animator;
@@ -32,6 +33,7 @@ public class AttackState : MonoBehaviour
             //atacar
             if (Vector2.Distance(target, transform.position) < 0.1f)
             {
+                _rigidbodyEnemy.linearVelocity = Vector2.zero;
                 Attack();
             }    
         }
@@ -53,7 +55,12 @@ public class AttackState : MonoBehaviour
 
     Vector2 CalculateTargetPosition()
     {
-        float offset = IsFacingRight ? -3.5f : 3.5f;
+        float distance = 3.5f;
+        if (isSmall)
+        {
+            distance *= 0.5f;
+        }
+        float offset = IsFacingRight ? -distance : distance;
         return new Vector2(_focus.position.x + offset, _focus.position.y);
     }
 
@@ -84,21 +91,30 @@ public class AttackState : MonoBehaviour
     {
         yield return new WaitForSeconds(0.6f);
         _animator.SetBool("Atk", false);
-        _coldDownAtk = false;
         yield return new WaitForSeconds(coldDownAtkTime);
+        _coldDownAtk = false;
     }
 
     //Es usado desde el animator como un Event
     IEnumerator ThrowBubbleCoroutine()
     {
+        float seconds = 0.7f;
+        if (isSmall)
+        {
+            seconds = 0.45f;
+        }
         ThrowBubble();
-        yield return new WaitForSeconds(0.7f);
+        yield return new WaitForSeconds(seconds);
         PopBubble();
     }
 
     private void ThrowBubble()
     {
         Vector2 direction = new Vector2(3.5f, 1.5f);
+        if (isSmall)
+        {
+            direction *= 0.5f;
+        }
         if (!IsFacingRight)
         {
             direction.x *= -1;
