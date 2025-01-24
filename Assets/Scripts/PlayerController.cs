@@ -4,6 +4,8 @@ using Assets.Scripts.Enemies;
 
 public class PlayerControler : MonoBehaviour
 {
+    public static PlayerControler Instance { get; private set; }
+
     public int health = 100;
     public float speed = 5.0f;
     private Rigidbody2D rb;
@@ -11,6 +13,20 @@ public class PlayerControler : MonoBehaviour
     private Animator animator;
     private Transform attackZone;
     private bool isHurt = false;
+
+
+    void Awake()
+    {
+        if (Instance == null)
+        {
+            Instance = this;
+            DontDestroyOnLoad(gameObject);
+        }
+        else
+        {
+            Destroy(gameObject);
+        }
+    }
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
 
