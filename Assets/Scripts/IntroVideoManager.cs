@@ -13,7 +13,7 @@ public class IntroVideoManager : MonoBehaviour
     {
         vp = GetComponent<VideoPlayer>();
         float duration = (float) vp.length;
-        StartCoroutine(ClipFinished(duration - 10f));
+        StartCoroutine(ClipFinished(duration-5f));
     }
 
     IEnumerator ClipFinished(float duration)
