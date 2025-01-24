@@ -56,6 +56,9 @@ TagManager:
   - name: Objetos
     uniqueID: 161078803
     locked: 0
+  - name: Paredes Lab
+    uniqueID: 2410511209
+    locked: 0
   - name: Personajes/Jugador
     uniqueID: 2917700525
     locked: 0
@@ -70,9 +73,6 @@ TagManager:
     locked: 0
   - name: Techo
     uniqueID: 3500955727
-    locked: 0
-  - name: Paredes Lab
-    uniqueID: 2410511209
     locked: 0
   - name: Tuneles
     uniqueID: 517965039
