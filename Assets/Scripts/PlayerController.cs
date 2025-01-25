@@ -4,6 +4,8 @@ using Assets.Scripts.Enemies;
 
 public class PlayerControler : MonoBehaviour
 {
+    public static PlayerControler Instance { get; private set; }
+
     public int health = 100;
     public float speed = 5.0f;
     private Rigidbody2D rb;
@@ -11,6 +13,20 @@ public class PlayerControler : MonoBehaviour
     private Animator animator;
     private Transform attackZone;
     private bool isHurt = false;
+
+
+    void Awake()
+    {   
+        if (Instance == null)
+        {
+            Instance = this;
+            DontDestroyOnLoad(gameObject);
+        }
+        else
+        {
+            Destroy(gameObject);
+        }
+    }
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
 
@@ -25,13 +41,18 @@ public class PlayerControler : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-
+     
         if (health <= 0)
         {
             animator.SetBool("Death", true);
             GetComponent<BoxCollider2D>().enabled = false;
+            GetComponent<CapsuleCollider2D>().enabled = false;
             attackZone.gameObject.SetActive(false);
+            rb.linearVelocity = Vector2.zero;
             print("Ha muerto");
+            Destroy(gameObject);
+            GameOverManager.Instance.ShowGameOver();
+            this.enabled = false;
         }
         //  Ataque con mouse del manager de ataque
         if (Input.GetAxisRaw("Fire1") > 0)
@@ -49,6 +70,17 @@ public class PlayerControler : MonoBehaviour
         Animate();
     }
 
+
+    public void WrapRespawn(float waitTime)
+    {
+        StartCoroutine(Respawn(waitTime));
+    }
+    IEnumerator Respawn(float waitTime)
+    {
+        GetComponent<SpriteRenderer>().enabled = false;
+        yield return new WaitForSeconds(waitTime);
+        GetComponent<SpriteRenderer>().enabled = true;
+    }
     void ProcessInputs()
     {
         input.x = Input.GetAxisRaw("Horizontal");
@@ -79,6 +111,16 @@ public class PlayerControler : MonoBehaviour
     void Move()
     {
         rb.linearVelocity = input * speed;
+    }
+
+    public void Heal(int amount)
+    {
+        health += amount;
+        if (health > 100) // Suponiendo que 100 es la salud máxima
+        {
+            health = 100;
+        }
+        print("Salud: " + health);
     }
 
     void Animate()

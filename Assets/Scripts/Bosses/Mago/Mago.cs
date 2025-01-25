@@ -22,6 +22,7 @@ namespace Assets.Scripts.Bosses.Mago
 
         private void Start()
         {
+            objetivo = GameObject.Find("Player").transform;
             desorientar = new Desorientar(desorientarDuracion);
             empujar = new Empujar(empujarFuerza, empujarDanio);
             rb = GetComponent<Rigidbody2D>();
