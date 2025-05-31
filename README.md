@@ -14,16 +14,6 @@
 
 ---
 
-## ✨ My Contributions
-
-As a developer on "Ether-no," I focused on bringing core gameplay mechanics to life:
-
-* **Movement Mechanics:** Implemented fluid player movement to navigate the game world.
-* **Enemy AI:** Developed intelligent enemy behaviors to provide engaging combat challenges.
-* **Combat System:** Crafted robust melee attack systems.
-* **Ranged Attacks:** Implemented both linear and parabolic projectile motion for diverse ranged combat.
-
----
 
 ## 🚀 Get Started
 
